@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leaps_Shelter_Web_App", "Leaps_Shelter_Web_App\Leaps_Shelter_Web_App.csproj", "{1D98EEA2-E156-416C-AC25-8ED36D6E5A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leaps_Shelter_Web_App.Tests", "Leaps_Shelter_Web_App.Tests\Leaps_Shelter_Web_App.Tests.csproj", "{83700B78-BDF6-4162-88DD-10F40E1E38F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D98EEA2-E156-416C-AC25-8ED36D6E5A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D98EEA2-E156-416C-AC25-8ED36D6E5A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D98EEA2-E156-416C-AC25-8ED36D6E5A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D98EEA2-E156-416C-AC25-8ED36D6E5A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83700B78-BDF6-4162-88DD-10F40E1E38F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83700B78-BDF6-4162-88DD-10F40E1E38F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83700B78-BDF6-4162-88DD-10F40E1E38F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83700B78-BDF6-4162-88DD-10F40E1E38F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDA6B8AD-4335-4C57-AA2D-EFBB7E15C940}
+	EndGlobalSection
+EndGlobal
