@@ -13,5 +13,10 @@ namespace Leaps_Shelter_Web_App.Pages
         {
 
         }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

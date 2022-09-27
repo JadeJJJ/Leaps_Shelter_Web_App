@@ -67,7 +67,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Leaps Animal Shelter - All rights reserved. </p>
+                <asp:Image ID="Image1" runat="server" ImageUrl ="~/image/LEAPS.jpg" ImageAlign="Middle" />
             </footer>
         </div>
 
