@@ -87,13 +87,13 @@ namespace Leaps_Shelter_Web_App.Pages
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// Image3 control.
+        /// Label7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image3;
+        protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
         /// Image2 control.
