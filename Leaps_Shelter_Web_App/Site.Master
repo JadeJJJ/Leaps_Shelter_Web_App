@@ -15,6 +15,12 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
+    <style type="text/css">
+        .auto-style2 {
+            margin-left: 345px;
+        }
+    </style>
+
 </head>
 <body>
     <form runat="server">
@@ -62,7 +68,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/image/Capture2.jpg" CssClass="auto-style2"/>
             </footer>
         </div>
 
