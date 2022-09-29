@@ -155,7 +155,6 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-
     <Content Include="Master_Pages\General_Layout.Master" />
     <Content Include="Master_Pages\Employee_Layout.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -306,6 +305,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Pictures\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
