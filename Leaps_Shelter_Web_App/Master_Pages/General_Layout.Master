@@ -66,9 +66,7 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer>
-                
-            </footer>
+
         </div>
 
     </form>
