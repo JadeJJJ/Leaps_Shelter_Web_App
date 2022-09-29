@@ -13,5 +13,15 @@ namespace Leaps_Shelter_Web_App.Pages
         {
 
         }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Label3.Text = DropDownList1.SelectedItem.Value;
+        }
     }
 }
