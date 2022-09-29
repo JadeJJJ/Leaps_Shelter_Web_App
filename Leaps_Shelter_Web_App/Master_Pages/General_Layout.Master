@@ -67,7 +67,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <asp:Image ID="Image1" runat="server" ImageUrl ="~/image/LEAPS.jpg" ImageAlign="Middle" />
+                
             </footer>
         </div>
 
