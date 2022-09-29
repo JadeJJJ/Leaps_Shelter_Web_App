@@ -120,25 +120,138 @@
     <table class="nav-justified">
         <tr>
             <td style="width: 546px">&nbsp;</td>
-            <td style="width: 432px">&nbsp;</td>
+            <td style="width: 436px">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 546px">&nbsp;</td>
             <td style="width: 432px">
                 <asp:Label ID="Label8" runat="server" Font-Size="Large" Text="3. Homechecks"></asp:Label>
                 <br />
-                <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Before placing an animal in a foster home or in a forever home, we do a homecheck. This is a standard practice, internationally. It allows us to meet the family, double check the information provided, and gives us an opportunity to make sure the home is safe and suitable for the animal.&nbsp;</span></td>
-            <td>
+                <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Before placing an animal in a foster home or in a forever home, we do a homecheck. This is a standard practice, internationally. It allows us to meet the family, double check the information provided, and gives us an opportunity to make sure the home is safe and suitable for the animal.&nbsp;<br />
+                <br />
+                LEAPS has a network of volunteers throughout Cape Town who can assist with homechecks. We always need more volunteers for homechecks since Cape Town is so big! And we do try and have as many homecheck volunteers in as many areas as possible.</span></td>
+            <td style="width: 436px">
                 <br />
             </td>
         </tr>
         <tr>
-            <td style="width: 546px">&nbsp;</td>
-            <td style="width: 432px">&nbsp;</td>
+            <td style="width: 546px">
+                
+            </td>
+            <td style="width: 436px">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
     </table>
-   
-
+   <table class="nav-justified">
+                    <tr>
+                        <td style="width: 545px; height: 25px;">
+                            <asp:Label ID="Label9" runat="server" Font-Size="Large" Text="4. Assist at our fundraising events"></asp:Label>
+                            <br />
+                            <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Bingo Night, is an annual fundraising event and is our primary fundraiser of the year. It is not your typical &quot;blue dye bingo evening&quot;, it is a complete party. It has grown in LEAPS and bounds since our first bingo evening in 2008, and we will continue to bring our patrons a night that they will never forget.<br />
+                            </span>
+                            <br />
+                        </td>
+                        <td style="height: 25px"></td>
+                        <td style="height: 25px"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 545px"><span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Paddle for the Paw is another annual fundraising event. We cater for everyone - new paddlers, seasoned paddlers and spectators. It’s a great day in the sun, full of fun, food, phenomenal prizes and gorgeous dogs paddling, swimming and mucking about in the water.&nbsp;</span></td>
+                        <td>
+                            <asp:Image ID="Image3" runat="server" Height="250px" ImageUrl="~/Images (Adam)/507a9532-3f11-4751-ad98-c5c90da2834b-crop.png" Width="431px" />
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 545px">
+                           
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+     <table class="nav-justified">
+                                <tr>
+                                    <td style="height: 20px; width: 543px">
+                                        <asp:Label ID="Label10" runat="server" Font-Size="Large" Text="5. Raise funds"></asp:Label>
+                                        <br />
+                                        <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">You can start and run your own campaign to raise funds for LEAPS! Whether it’s a book sale amongst friends, a quiz night at your local restaurant, a raffle or more, there are many ways for you to Help the Paw.</span></td>
+                                    <td style="height: 20px"></td>
+                                    <td style="height: 20px"></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 543px">&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 543px">&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+         <table class="nav-justified">
+                                <tr>
+                                    <td style="height: 20px; width: 543px">
+                                        <asp:Label ID="Label11" runat="server" Font-Size="Large" Text="6. Introduce us to donors"></asp:Label>
+                                        <br />
+                                        <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">If you have any donor contacts, please introduce us.&nbsp;</span></td>
+                                    <td style="height: 20px"></td>
+                                    <td style="height: 20px"></td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 543px">&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td style="width: 543px">
+                                        
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+    <table class="nav-justified">
+                                            <tr>
+                                                <td style="width: 542px; height: 73px">
+                                                    <asp:Label ID="Label12" runat="server" Font-Size="Large" Text="7. Volunteer your professional services"></asp:Label>
+                                                    <br />
+                                                    <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">It doesn’t matter what your profession might be, we guarantee there is something you can do for LEAPS.&nbsp;</span></td>
+                                                <td style="height: 73px"></td>
+                                                <td style="width: 181px; height: 73px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 542px">&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td style="width: 181px">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 542px">&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td style="width: 181px">&nbsp;</td>
+                                            </tr>
+                                        </table>
+    <table class="nav-justified">
+                    <tr>
+                        <td style="width: 637px; height: 25px;">
+                            <asp:Label ID="Label13" runat="server" Font-Size="Large" Text="8. Foster"></asp:Label>
+                            <br />
+                            <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">LEAPS does not have a shelter or kennel facilities. We rely solely on the kindness and generosity of fosters who open their homes and hearts to animals needing a place to stay while we find them their forever homes. We are always looking for foster homes for our dogs, puppies, cats or kittens to make sure we can remove them from unwanted situations as quickly as possible.</span><br />
+                        </td>
+                        <td style="height: 25px"></td>
+                        <td style="height: 25px"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 637px">&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 637px">
+                           
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
 </asp:Content>
