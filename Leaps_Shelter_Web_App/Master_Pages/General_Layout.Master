@@ -77,7 +77,60 @@
         </div>
 	</div>
 	<!-- //footer -->
+            <footer style="background: darkgray">
 
+                
+                	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="agileinfo_footer_grids">
+				<div class="col-md-4 agileinfo_footer_grid">
+					<div class="agile-logo">
+						<h3><a href="index.html">Farming <span>Company</span></a></h3>
+					</div>
+					<p>Etiam condimentum mi nec tortor euismod, id lobortis odio dictum. Cras 
+						suscipit elit eget mi volutpat facilisis.</p>
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 agileinfo_footer_grid">
+					<h3>Reach us</h3>
+					<ul class="agileinfo_footer_grid_list">
+						<li>PO BOX 15815, Vlaeberg, 8018</li>
+                        <li>NPO # 069-863</li>
+                        <li>PBO # 93003122 </li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@l<span class="text-primary">eaps.co.za</span></a></li>
+					</ul>
+				    <p>
+                        &nbsp;</p>
+				</div>
+				<div class="auto-style1">
+					<h3>Navigation</h3>
+					<ul class="agileinfo_footer_grid_nav">
+						<li><a runat="server" href="~/Pages/Home">Home</a></li>
+                        <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="index.html">Home</a></li>
+						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="about.html">About Us</a></li>
+						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="gallery.html">Gallery</a></li>
+						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="typography.html">Typography</a></li>
+						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="icons.html">Icons</a></li>
+						<li><a runat="server" href="~/Pages/Home">To top</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="w3agile_footer_copy">
+				
+			</div>
+		</div>
+                        <div>
+                            <p></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &copy; <%: DateTime.Now.Year %> - Leaps Animal Shelter - All rights reserved. </p>
             </footer>
         </div>
             <!-- stuff displays outside borders here -->
