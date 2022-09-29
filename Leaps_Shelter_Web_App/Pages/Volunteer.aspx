@@ -115,6 +115,30 @@
             <td>&nbsp;</td>
         </tr>
     </table>       
-    
+   
+
+    <table class="nav-justified">
+        <tr>
+            <td style="width: 546px">&nbsp;</td>
+            <td style="width: 432px">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width: 546px">&nbsp;</td>
+            <td style="width: 432px">
+                <asp:Label ID="Label8" runat="server" Font-Size="Large" Text="3. Homechecks"></asp:Label>
+                <br />
+                <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Before placing an animal in a foster home or in a forever home, we do a homecheck. This is a standard practice, internationally. It allows us to meet the family, double check the information provided, and gives us an opportunity to make sure the home is safe and suitable for the animal.&nbsp;</span></td>
+            <td>
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 546px">&nbsp;</td>
+            <td style="width: 432px">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+   
 
 </asp:Content>
