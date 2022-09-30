@@ -11,7 +11,12 @@ namespace Leaps_Shelter_Web_App.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           
+        }
 
+        public void setBG()
+        {
+            
         }
     }
 }
