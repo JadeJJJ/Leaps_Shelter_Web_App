@@ -3,18 +3,19 @@
    
      
     
-
+    <div style="background-color:black; width: 99%; height: 100px; border-radius: 8px; text-align:center">
+                    <asp:Label ID="Label1" runat="server" style="margin-left: 20px; margin-top: 100px; text-align: center" Font-Size="30pt" Font-Names="Calibri" ForeColor="Yellow" Text=" Volunteer"></asp:Label>
+                </div>
     <table class="nav-justified">
         <tr>
-            <td style="width: 542px">&nbsp;</td>
-            <td class="modal-sm" style="width: 153px">
-                <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" Font-Underline="True" Text="Volunteer"></asp:Label>
-            </td>
-            <td>&nbsp;</td>
+            <td style="width: 542px; height: 35px">&nbsp;</td>
+            <td class="modal-sm" style="width: 47px; height: 35px">
+                &nbsp;</td>
+            <td style="height: 35px" class="auto-style6">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 542px; height: 22px"></td>
-            <td class="modal-sm" style="width: 153px; height: 22px">
+            <td style="width: 542px; height: 35px"></td>
+            <td class="modal-sm" style="width: 47px; height: 35px">
                 <asp:DropDownList ID="DropDownList1" runat="server" Height="34px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" style="margin-left: 0">
                     <asp:ListItem>Volunteer at Puppy Adoption</asp:ListItem>
                     <asp:ListItem>Transporting Animals</asp:ListItem>
@@ -26,37 +27,37 @@
                     <asp:ListItem>Foster</asp:ListItem>
                 </asp:DropDownList>
             </td>
-            <td style="height: 22px"></td>
+            <td style="height: 35px" class="auto-style6"></td>
         </tr>
         <tr>
             <td style="width: 542px; height: 20px"></td>
-            <td class="modal-sm" style="width: 153px; height: 20px"></td>
+            <td class="modal-sm" style="width: 47px; height: 20px"></td>
             <td style="height: 20px"></td>
         </tr>
         <tr>
             <td style="width: 542px">&nbsp;</td>
-            <td class="modal-sm" style="width: 153px">
+            <td class="modal-sm" style="width: 47px">
                 <asp:Label ID="Label3" runat="server"></asp:Label>
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 542px">&nbsp;</td>
-            <td class="modal-sm" style="width: 153px">
+            <td class="modal-sm" style="width: 47px">
                 <asp:Label ID="Label2" runat="server" Text="Enter Email:"></asp:Label>
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 542px">&nbsp;</td>
-            <td class="modal-sm" style="width: 153px">
+            <td class="modal-sm" style="width: 47px">
                 <asp:TextBox ID="TextBox1" runat="server" Width="208px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 542px">&nbsp;</td>
-            <td class="modal-sm" style="width: 153px">
+            <td class="modal-sm" style="width: 47px">
                 <asp:Button ID="Button1" runat="server" Text="Submit" />
             </td>
             <td>&nbsp;</td>
