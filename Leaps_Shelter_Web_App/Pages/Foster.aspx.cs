@@ -9,20 +9,85 @@ namespace Leaps_Shelter_Web_App.Pages
 {
     public partial class Foster : System.Web.UI.Page
     {
+
+
+        /// <summary>
+        /// USER ISNT ALLOWED TO SEE ANY PART OF FOSTER FORMS WHEN PAGE LOADS, THUS ONLY DISPLAY FORM INFO WHEN USER NEEDS IT
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         protected void Page_Load(object sender, EventArgs e)
         {
             
+            
+            nameText.Visible = false;
+            addressText.Visible = false;
+            emailText.Visible = false;
+            telnoText.Visible = false;
+            experienceText.Visible = false;
+            fosterExperienceText.Visible = false;
+            lostAnimalsText.Visible = false;
+            negativeAnimalExperienceText.Visible = false;
+            residenceTypeText.Visible = false;
+            noOfAdultsText.Visible = false;
+            ageAndNoChildrenText.Visible = false;
+            alergiesText.Visible = false;
+            currentPetsText.Visible = false;
+            workText.Visible = false;
+            gardenSizeText.Visible = false;
+            fosterSleepText.Visible = false;
+            rentedAccomidationText.Visible = false;
+            transportText.Visible = false;
+            exerciseText.Visible = false;
+            poolText.Visible = false;
+            safeIndoorsText.Visible = false;
+            quantityAnimalText.Visible = false;
+            specialNeedsAnimalsText.Visible = false;
+            olderAnimalsText.Visible = false;
 
+
+            
 
         }
 
+
+
+        /// <summary>
+        /// METHOD USED TO DISPLAY ANIMAL SPECIFIC FOSTER FORMS AND THEIR QUESTIONS THAT FOLLOW
+        /// </summary>
         public void dropdownSelect()
         {
-           // if(categoryDropdown.Text == "Cats / Kittens")
-
-            //if (categoryDropdown.Items.Equals("Cats/ Kittens"))
-            if(categoryDropdown.SelectedItem.Text.Contains("Cats/ Kittens"))
+            
+            if (categoryDropdown.SelectedItem.Text.Contains("Cats/ Kittens"))
             {
+                //CLEARS ALL TEXTBOXES AFTER SWAPPING BETWEEN DOGS, CATS AND NULL
+                nameText.Text = "";
+                addressText.Text = "";
+                emailText.Text = "";
+                telnoText.Text = "";
+                experienceText.Text = "";
+                fosterExperienceText.Text = "";
+                lostAnimalsText.Text = "";
+                negativeAnimalExperienceText.Text = "";
+                residenceTypeText.Text = "";
+                noOfAdultsText.Text = "";
+                ageAndNoChildrenText.Text = "";
+                alergiesText.Text = "";
+                currentPetsText.Text = "";
+                workText.Text = "";
+                gardenSizeText.Text = "";
+                fosterSleepText.Text = "";
+                rentedAccomidationText.Text = "";
+                transportText.Text = "";
+                exerciseText.Text = "";
+                poolText.Text = "";
+                safeIndoorsText.Text = "";
+                quantityAnimalText.Text = "";
+                specialNeedsAnimalsText.Text = "";
+                olderAnimalsText.Text = "";
+                
+
+                //DECLARES WHAT THE CATS/ KITTENS TEXT WILL INCLUDE
                 namesTxt.Text = "Name?";
                 addressesTxt.Text = "Address?";
                 emailsTxt.Text = "Email?";
@@ -47,11 +112,92 @@ namespace Leaps_Shelter_Web_App.Pages
                 quantityAnimalTxt.Text = "How many animals are you willing and able to foster?";
                 specialNeedsAnimalsTxt.Text = "Are you prepared to foster special needs animals? This might entail special meds, nursing and socialising, etc.";
                 olderAnimalsTxt.Text = "Are you prepared to foster older animals which may take longer to home?";
+                
 
+                //MAKES ALL THE LABELS .VISIBLE = TRUE
+                namesTxt.Visible = true;
+                addressesTxt.Visible = true;
+                emailsTxt.Visible = true;
+                numberTxt.Visible = true;
+                experienceTxt.Visible = true;
+                fosterExperienceTxt.Visible = true;
+                lostAnimalsTxt.Visible = true;
+                negativeAnimalExpeienceTxt.Visible = true;
+                residenceTypeTxt.Visible = true;
+                noOfAdultsTxt.Visible = true;
+                ageAndNoChildrenTxt.Visible = true;
+                alergiesTxt.Visible = true;
+                currentPetsTxt.Visible = true;
+                workTxt.Visible = true;
+                gardenSizeTxt.Visible = true;
+                fosterSleepTxt.Visible = true;
+                rentedAccomidationTxt.Visible = true;
+                transportTxt.Visible = true;
+                exerciseTxt.Visible = true;
+                poolTxt.Visible = true;
+                safeIndoorsTxt.Visible = true;
+                quantityAnimalTxt.Visible = true;
+                specialNeedsAnimalsTxt.Visible = true;
+                olderAnimalsTxt.Visible = true;
+
+                //MAKES ALL THE TEXTBOXES .VISIBLE = TRUE
+                nameText.Visible = true;
+                addressText.Visible = true;
+                emailText.Visible = true;
+                telnoText.Visible = true;
+                experienceText.Visible = true;
+                fosterExperienceText.Visible = true;
+                lostAnimalsText.Visible = true;
+                negativeAnimalExperienceText.Visible = true;
+                residenceTypeText.Visible = true;
+                noOfAdultsText.Visible = true;
+                ageAndNoChildrenText.Visible = true;
+                alergiesText.Visible = true;
+                currentPetsText.Visible = true;
+                workText.Visible = true;
+                gardenSizeText.Visible = true;
+                fosterSleepText.Visible = true;
+                rentedAccomidationText.Visible = true;
+                transportText.Visible = true;
+                exerciseText.Visible = true;
+                poolText.Visible = true;
+                safeIndoorsText.Visible = true;
+                quantityAnimalText.Visible = true;
+                specialNeedsAnimalsText.Visible = true;
+                olderAnimalsText.Visible = true;
 
             }
-            else if(categoryDropdown.SelectedItem.Text.Contains("Dogs/ Puppies"))
+            else if (categoryDropdown.SelectedItem.Text.Contains("Dogs/ Puppies"))
             {
+
+                //CLEARS ALL TEXTBOXES AFTER SWAPPING BETWEEN DOGS, CATS AND NULL
+                nameText.Text = "";
+                addressText.Text = "";
+                emailText.Text = "";
+                telnoText.Text = "";
+                experienceText.Text = "";
+                fosterExperienceText.Text = "";
+                lostAnimalsText.Text = "";
+                negativeAnimalExperienceText.Text = "";
+                residenceTypeText.Text = "";
+                noOfAdultsText.Text = "";
+                ageAndNoChildrenText.Text = "";
+                alergiesText.Text = "";
+                currentPetsText.Text = "";
+                workText.Text = "";
+                gardenSizeText.Text = "";
+                fosterSleepText.Text = "";
+                rentedAccomidationText.Text = "";
+                transportText.Text = "";
+                exerciseText.Text = "";
+                poolText.Text = "";
+                safeIndoorsText.Text = "";
+                quantityAnimalText.Text = "";
+                specialNeedsAnimalsText.Text = "";
+                olderAnimalsText.Text = "";
+
+
+                //DISPLAYS CORRECT TEXT FOR DOGS/ PUPPIES
                 namesTxt.Text = "Name?";
                 addressesTxt.Text = "Address?";
                 emailsTxt.Text = "Email?";
@@ -77,11 +223,124 @@ namespace Leaps_Shelter_Web_App.Pages
                 specialNeedsAnimalsTxt.Text = "Are you prepared to foster special needs animals? This might entail special meds, nursing and socialising, etc.";
                 olderAnimalsTxt.Text = "Are you prepared to foster older animals which may take longer to home?";
 
+                //MAKES THE LABELS .VISIBLE = TRUE
+                namesTxt.Visible = true;
+                addressesTxt.Visible = true;
+                emailsTxt.Visible = true;
+                numberTxt.Visible = true;
+                experienceTxt.Visible = true;
+                fosterExperienceTxt.Visible = true;
+                lostAnimalsTxt.Visible = true;
+                negativeAnimalExpeienceTxt.Visible = true;
+                residenceTypeTxt.Visible = true;
+                noOfAdultsTxt.Visible = true;
+                ageAndNoChildrenTxt.Visible = true;
+                alergiesTxt.Visible = true;
+                currentPetsTxt.Visible = true;
+                workTxt.Visible = true;
+                gardenSizeTxt.Visible = true;
+                fosterSleepTxt.Visible = true;
+                rentedAccomidationTxt.Visible = true;
+                transportTxt.Visible = true;
+                exerciseTxt.Visible = true;
+                poolTxt.Visible = true;
+                safeIndoorsTxt.Visible = true;
+                quantityAnimalTxt.Visible = true;
+                specialNeedsAnimalsTxt.Visible = true;
+                olderAnimalsTxt.Visible = true;
+
+                //MAKES THE TEXTBOXES .VISIBLE = TRUE
+                nameText.Visible = true;
+                addressText.Visible = true;
+                emailText.Visible = true;
+                telnoText.Visible = true;
+                experienceText.Visible = true;
+                fosterExperienceText.Visible = true;
+                lostAnimalsText.Visible = true;
+                negativeAnimalExperienceText.Visible = true;
+                residenceTypeText.Visible = true;
+                noOfAdultsText.Visible = true;
+                ageAndNoChildrenText.Visible = true;
+                alergiesText.Visible = true;
+                currentPetsText.Visible = true;
+                workText.Visible = true;
+                gardenSizeText.Visible = true;
+                fosterSleepText.Visible = true;
+                rentedAccomidationText.Visible = true;
+                transportText.Visible = true;
+                exerciseText.Visible = true;
+                poolText.Visible = true;
+                safeIndoorsText.Visible = true;
+                quantityAnimalText.Visible = true;
+                specialNeedsAnimalsText.Visible = true;
+                olderAnimalsText.Visible = true;
+            }
+            else if(categoryDropdown.SelectedItem.Text.Contains("Dont want to foster any animals"))
+            {
+                //HIDING ALL VALUES - THE USER DOES NOT WISH TO PROCEED WITH FOSTERING....
+                namesTxt.Visible = false;
+                addressesTxt.Visible = false;
+                emailsTxt.Visible = false;
+                numberTxt.Visible = false;
+                experienceTxt.Visible = false;
+                fosterExperienceTxt.Visible = false;
+                lostAnimalsTxt.Visible = false;
+                negativeAnimalExpeienceTxt.Visible = false;
+                residenceTypeTxt.Visible = false;
+                noOfAdultsTxt.Visible = false;
+                ageAndNoChildrenTxt.Visible = false;
+                alergiesTxt.Visible = false;
+                currentPetsTxt.Visible = false;
+                workTxt.Visible = false;
+                gardenSizeTxt.Visible = false;
+                fosterSleepTxt.Visible = false;
+                rentedAccomidationTxt.Visible = false;
+                transportTxt.Visible = false;
+                exerciseTxt.Visible = false;
+                poolTxt.Visible = false;
+                safeIndoorsTxt.Visible = false;
+                quantityAnimalTxt.Visible = false;
+                specialNeedsAnimalsTxt.Visible = false;
+                olderAnimalsTxt.Visible = false;
+
+
+                //HIDING ALL VALUES - THE USER DOES NOT WISH TO PROCEED WITH FOSTERING....
+                nameText.Visible = false;
+                addressText.Visible = false;
+                emailText.Visible = false;
+                telnoText.Visible = false;
+                experienceText.Visible = false;
+                fosterExperienceText.Visible = false;
+                lostAnimalsText.Visible = false;
+                negativeAnimalExperienceText.Visible = false;
+                residenceTypeText.Visible = false;
+                noOfAdultsText.Visible = false;
+                ageAndNoChildrenText.Visible = false;
+                alergiesText.Visible = false;
+                currentPetsText.Visible = false;
+                workText.Visible = false;
+                gardenSizeText.Visible = false;
+                fosterSleepText.Visible = false;
+                rentedAccomidationText.Visible = false;
+                transportText.Visible = false;
+                exerciseText.Visible = false;
+                poolText.Visible = false;
+                safeIndoorsText.Visible = false;
+                quantityAnimalText.Visible = false;
+                specialNeedsAnimalsText.Visible = false;
+                olderAnimalsText.Visible = false;
             }
         }
 
+
+        /// <summary>
+        /// USED TO SEND REQUEST FOR SPECIFIED FOSTERING FORMS....
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         protected void goBtn_Click(object sender, EventArgs e)
         {
+            //DISPLAYING RELEVANT FOSTERING FORMS USING FOLLOWING METHOD...
             dropdownSelect();
         }
     }

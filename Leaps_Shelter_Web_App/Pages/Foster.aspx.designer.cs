@@ -123,6 +123,15 @@ namespace Leaps_Shelter_Web_App.Pages
         protected global::System.Web.UI.WebControls.Label experienceTxt;
 
         /// <summary>
+        /// experienceText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox experienceText;
+
+        /// <summary>
         /// fosterExperienceTxt control.
         /// </summary>
         /// <remarks>
@@ -130,6 +139,15 @@ namespace Leaps_Shelter_Web_App.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label fosterExperienceTxt;
+
+        /// <summary>
+        /// fosterExperienceText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox fosterExperienceText;
 
         /// <summary>
         /// lostAnimalsTxt control.
@@ -141,6 +159,15 @@ namespace Leaps_Shelter_Web_App.Pages
         protected global::System.Web.UI.WebControls.Label lostAnimalsTxt;
 
         /// <summary>
+        /// lostAnimalsText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox lostAnimalsText;
+
+        /// <summary>
         /// negativeAnimalExpeienceTxt control.
         /// </summary>
         /// <remarks>
@@ -148,6 +175,15 @@ namespace Leaps_Shelter_Web_App.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label negativeAnimalExpeienceTxt;
+
+        /// <summary>
+        /// negativeAnimalExperienceText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox negativeAnimalExperienceText;
 
         /// <summary>
         /// residenceTypeTxt control.
@@ -159,6 +195,15 @@ namespace Leaps_Shelter_Web_App.Pages
         protected global::System.Web.UI.WebControls.Label residenceTypeTxt;
 
         /// <summary>
+        /// residenceTypeText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox residenceTypeText;
+
+        /// <summary>
         /// noOfAdultsTxt control.
         /// </summary>
         /// <remarks>
@@ -166,6 +211,15 @@ namespace Leaps_Shelter_Web_App.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label noOfAdultsTxt;
+
+        /// <summary>
+        /// noOfAdultsText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox noOfAdultsText;
 
         /// <summary>
         /// ageAndNoChildrenTxt control.
@@ -177,6 +231,15 @@ namespace Leaps_Shelter_Web_App.Pages
         protected global::System.Web.UI.WebControls.Label ageAndNoChildrenTxt;
 
         /// <summary>
+        /// ageAndNoChildrenText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ageAndNoChildrenText;
+
+        /// <summary>
         /// alergiesTxt control.
         /// </summary>
         /// <remarks>
@@ -184,6 +247,15 @@ namespace Leaps_Shelter_Web_App.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label alergiesTxt;
+
+        /// <summary>
+        /// alergiesText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox alergiesText;
 
         /// <summary>
         /// currentPetsTxt control.
@@ -195,6 +267,15 @@ namespace Leaps_Shelter_Web_App.Pages
         protected global::System.Web.UI.WebControls.Label currentPetsTxt;
 
         /// <summary>
+        /// currentPetsText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox currentPetsText;
+
+        /// <summary>
         /// workTxt control.
         /// </summary>
         /// <remarks>
@@ -202,6 +283,15 @@ namespace Leaps_Shelter_Web_App.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label workTxt;
+
+        /// <summary>
+        /// workText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox workText;
 
         /// <summary>
         /// gardenSizeTxt control.
@@ -213,6 +303,15 @@ namespace Leaps_Shelter_Web_App.Pages
         protected global::System.Web.UI.WebControls.Label gardenSizeTxt;
 
         /// <summary>
+        /// gardenSizeText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox gardenSizeText;
+
+        /// <summary>
         /// fosterSleepTxt control.
         /// </summary>
         /// <remarks>
@@ -220,6 +319,15 @@ namespace Leaps_Shelter_Web_App.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label fosterSleepTxt;
+
+        /// <summary>
+        /// fosterSleepText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox fosterSleepText;
 
         /// <summary>
         /// rentedAccomidationTxt control.
@@ -231,6 +339,15 @@ namespace Leaps_Shelter_Web_App.Pages
         protected global::System.Web.UI.WebControls.Label rentedAccomidationTxt;
 
         /// <summary>
+        /// rentedAccomidationText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox rentedAccomidationText;
+
+        /// <summary>
         /// transportTxt control.
         /// </summary>
         /// <remarks>
@@ -238,6 +355,15 @@ namespace Leaps_Shelter_Web_App.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label transportTxt;
+
+        /// <summary>
+        /// transportText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox transportText;
 
         /// <summary>
         /// exerciseTxt control.
@@ -249,6 +375,15 @@ namespace Leaps_Shelter_Web_App.Pages
         protected global::System.Web.UI.WebControls.Label exerciseTxt;
 
         /// <summary>
+        /// exerciseText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox exerciseText;
+
+        /// <summary>
         /// poolTxt control.
         /// </summary>
         /// <remarks>
@@ -256,6 +391,15 @@ namespace Leaps_Shelter_Web_App.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label poolTxt;
+
+        /// <summary>
+        /// poolText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox poolText;
 
         /// <summary>
         /// safeIndoorsTxt control.
@@ -267,6 +411,15 @@ namespace Leaps_Shelter_Web_App.Pages
         protected global::System.Web.UI.WebControls.Label safeIndoorsTxt;
 
         /// <summary>
+        /// safeIndoorsText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox safeIndoorsText;
+
+        /// <summary>
         /// quantityAnimalTxt control.
         /// </summary>
         /// <remarks>
@@ -274,6 +427,15 @@ namespace Leaps_Shelter_Web_App.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label quantityAnimalTxt;
+
+        /// <summary>
+        /// quantityAnimalText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox quantityAnimalText;
 
         /// <summary>
         /// specialNeedsAnimalsTxt control.
@@ -285,6 +447,15 @@ namespace Leaps_Shelter_Web_App.Pages
         protected global::System.Web.UI.WebControls.Label specialNeedsAnimalsTxt;
 
         /// <summary>
+        /// specialNeedsAnimalsText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox specialNeedsAnimalsText;
+
+        /// <summary>
         /// olderAnimalsTxt control.
         /// </summary>
         /// <remarks>
@@ -292,5 +463,14 @@ namespace Leaps_Shelter_Web_App.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label olderAnimalsTxt;
+
+        /// <summary>
+        /// olderAnimalsText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox olderAnimalsText;
     }
 }
