@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master_Pages/General_Layout.Master" AutoEventWireup="true" CodeBehind="AboutUs.aspx.cs" Inherits="Leaps_Shelter_Web_App.Pages.AboutUs" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
                 <br />
-                <div style="background-color:black; width: 99%; height: 100px; border-radius: 8px">
+                <div style="background-color:black; width: 100%; height: 100px; border-radius: 8px; text-align:center">
                     <asp:Label ID="Label1" runat="server" style="margin-left: 20px; margin-top: 100px" Font-Size="20pt" Font-Names="Calibri" ForeColor="Yellow" Text="About" ></asp:Label>
                 </div>
                 <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Who are we?<br />
@@ -33,4 +33,7 @@
                 Our team consists of 4 dedicated full time employees, 2 of which are based in the townships and a further contingent of wonderful volunteers predominantly based in Cape Town, most of whom have full-time jobs. Our foster and support network is mostly based in Cape Town and surrounds.</span></span></span><br />
                 </span></span></span></span></span>
                 <br />
+<style>
+    div {background-color: white;}
+</style>
 </asp:Content>
