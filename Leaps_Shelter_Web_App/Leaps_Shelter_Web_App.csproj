@@ -158,6 +158,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Images %28Adam%29\507a9532-3f11-4751-ad98-c5c90da2834b-crop.png" />
     <Content Include="Images %28Adam%29\pexels-anna-shvets-4588010.jpg" />
     <Content Include="Images %28Adam%29\pexels-dmitriy-piskarev-9191778.jpg" />
     <Content Include="Images %28Adam%29\pexels-kampus-production-8734443.jpg" />
@@ -172,6 +173,8 @@
     <Content Include="Pages\Home.aspx" />
     <Content Include="Pages\SterilizationDrives.aspx" />
     <Content Include="Pages\Volunteer.aspx" />
+    <Content Include="Pictures\backgroundtest1.PNG" />
+    <Content Include="Pictures\backgroundtest4.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -311,7 +314,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="Pictures\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
