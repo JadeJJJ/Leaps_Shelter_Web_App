@@ -4,7 +4,7 @@
         <tr>
             <td>
                 <br />
-                <div style="background-color:black; width: 99%; height: 100px; border-radius: 8px">
+                <div style="background-color:black; width: 100%; height: 100px; border-radius: 8px; text-align:center">
                     <asp:Label ID="Label1" runat="server" style="margin-left: 20px; margin-top: 100px" Font-Size="20pt" Font-Names="Calibri" ForeColor="Yellow" Text=" Donations"></asp:Label>
                 </div>
                 <br />
@@ -53,4 +53,7 @@
     <br />
     <br />
     <br />
+<style>
+    div {background-color: white;}
+</style>
     </asp:Content>
