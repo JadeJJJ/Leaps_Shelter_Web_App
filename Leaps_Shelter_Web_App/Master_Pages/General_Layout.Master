@@ -16,9 +16,6 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <style type="text/css">
-        .auto-style3 {
-            height: 68px;
-        }
         .auto-style4 {
             height: 11px;
         }
@@ -28,15 +25,11 @@
         .auto-style6 {
             height: 34px;
         }
-        .auto-style7 {
-            left: 0px;
-            top: 1px;
-        }
-
+        
     </style>
 
 </head>
-<body  style="background-image:url('../Pictures/backgroundtest1.PNG')"> <!-- style="background-image:url('Pictures/backgroundtest1.PNG')" -->
+<body  style="background-image:url('../Pictures/backgroundtest4.PNG')"> <!-- style="background-image:url('Pictures/backgroundtest1.PNG')" -->
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -101,18 +94,22 @@
 			<div class="agileinfo_footer_grids" >
 				<div class="col-md-4 agileinfo_footer_grid" style="background-color: black; color: white">
 					<div class="agile-logo" style="background-color: black">
-						<h3>Customer care</h3>
+						<h3>Find us online</h3>
                         <p class="auto-style5"></p>
 					</div>
 					<div class="agileinfo-social-grids"  style="background-color: black; color: white">
 						<ul>
-							<li><a runat="server" href="~/Pages/Home">Go to top</a></li>
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-rss"></i></a></li>
-							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+							<li><a runat="server" href="~/Pages/Home">Instagram icon</a></li>
+							<li><a runat="server" href="~/Pages/Home">Facebook icon</a></li>
+							<li><a runat="server" href="~/Pages/Home">Twitter icon</a></li>
 						</ul>
+
+                 <br />
+                         <p class="auto-style6" style="color:white"> &copy; <%: DateTime.Now.Year %> - Leaps Animal Shelter - All rights reserved. </p>
+
 					</div>
 				</div>
+
 				<div class="col-md-4 agileinfo_footer_grid"  style="background-color: black; color: white">
 					<h3>Reach us</h3>
                     <p class="auto-style5"></p>
@@ -120,24 +117,34 @@
 						<li>PO BOX 15815, Vlaeberg, 8018</li>
                         <li>NPO # 069-863</li>
                         <li>PBO # 93003122 </li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@l<span class="text-primary">eaps.co.za</span></a></li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com"><span class="text-primary">  info@leaps.co.za</span></a></li>
 					</ul>
-				    <p class="auto-style3">
-                        &nbsp;</p>
+                    <!--
+                    <br />
+                    <a runat="server" href="~/Pages/<%=Page.Title.ToString()%>#Top">Go to top</a>
+                    -->
+                    
 				</div>
 
-                <div class="auto-style7"  style="background-color: black; color: white">
-					<h3>Sign up for our Newsletter!</h3>
+
+                <div class="col-md-4 agileinfo_footer_grid"  style="background-color: black; color: white">
+                    					<h3>Sign up for our Newsletter!</h3>
                     <p class="auto-style5"></p>
                     <label>Email address:&nbsp;&nbsp;&nbsp; </label>
+                    <div style="color: black">
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-
+                    </div>
                     <p class="auto-style4"></p>
+                    <div style="background-color: black; color: black">
                     <asp:Button ID="signUpButton" runat="server" Text="Sign-up" Width="107px" BackColor="#FFFF66"/>
-				    <p class="auto-style3">
-                        &nbsp;</p>
-				</div>
+                    </div>
 
+                    <!--
+				</div>
+                <div class="auto-style7"  style="background-color: black; color: white">
+
+				</div>
+                -->
                 <!-- 
 				<div class="agileinfo_footer_grid_list">
 					<h3>Navigation</h3>
@@ -151,10 +158,23 @@
 
 				</div>
                     -->
-			</div>
 
+                    			</div>
+
+                    
+
+                
 		</div>
-        <p class="auto-style6" style="color:white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &copy; <%: DateTime.Now.Year %> - Leaps Animal Shelter - All rights reserved. </p>
+            <!--
+                            <div class="col-md-4 agileinfo_footer_grid" style="background-color: black; color: white">
+					<div class="agile-logo" style="background-color: black">
+              
+                       <div style="background-color:black; width: max-content; height: 45px; border-radius: 8px">
+                    <asp:Label ID="Label1" runat="server" style="width: fit-content ;margin-left: 20px; margin-top: 100px" Font-Size="18pt" Font-Names="Calibri" ForeColor="Yellow" Text="Bank details || 324423534534 ||  ksahdljhsadjhlsajdjlaksdjl || fdsdf dsfdfdsff || asddsfdsfsdf" ></asp:Label>
+                </div>
+					</div>
+				</div>
+                -->
             </footer>
        
             <!-- stuff displays outside borders here -->

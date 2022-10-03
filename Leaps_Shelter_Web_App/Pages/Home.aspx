@@ -3,21 +3,54 @@
 <asp:Content ID="mainHomeContent" ContentPlaceHolderID="MainContent" runat="server">
     <style>
     div {background-color: white;} 
+        .auto-style7 {
+            margin-left: 0px;
+        }
+        .auto-style8 {
+            height: 200px;
+            width: 2205px;
+        }
+        .auto-style9 {
+            width: 874px;
+        }
+        .auto-style10 {
+            width: 1650px;
+        }
     </style>
     <div runat="server" style="">
 
     </div>
     <table  class="nav-justified">
         <tr>
-            <td  style="height: 200px; width: 1362px;">
-                <asp:Image ID="Image1" runat="server" Height="404px" Width="1144px" ImageUrl="~/Images/headertest1.PNG"/>
+            <td class="auto-style9">
+
+            </td>
+            <td class="auto-style8" style="color: white">
+                <asp:Button ID="Button1" runat="server" Text="&lt;--" BackColor="Black" Height="67px"/>
+                <asp:Image ID="Image1" runat="server" Height="404px" Width="879px" CssClass="auto-style7"/>
+                <asp:Button ID="Button2" runat="server" Text="--&gt;" BackColor="Black" Height="67px"/>
+            </td>
+            <td>
+
             </td>
         </tr>
+      
+    </table>
+    <br />
+    <table>
         <tr>
-            <td  style="height: 50px; width: 1362px; align-content: center">
+            <td  style="width: 1550px">
 
-                <span style="color: black; font-family: brandon-grot-w01-light, brandon-grot-w05-light, sans-serif; font-size: 30px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
-                </span></td>
+            </td>
+            <td class="auto-style10">
+                
+                <asp:RadioButton ID="RadioButton1" runat="server" Text="" />
+                <asp:RadioButton ID="RadioButton2" runat="server" Text="" />
+                <asp:RadioButton ID="RadioButton3" runat="server" Text="" />
+                <asp:RadioButton ID="RadioButton4" runat="server" Text="" />
+                    
+            </td>
+            <td></td>
         </tr>
     </table>
 
