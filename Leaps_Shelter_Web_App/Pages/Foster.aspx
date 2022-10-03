@@ -4,6 +4,10 @@
                 <div style="background-color:black; width: 100%; height: 100px; border-radius: 8px; text-align:center">
                     <asp:Label ID="Label1" runat="server" style="margin-left: 20px; margin-top: 100px" Font-Size="20pt" Font-Names="Calibri" ForeColor="Yellow" Text="Foster" ></asp:Label>
                 </div>
+                <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">LEAPS does not have a shelter or kennel facilities. We rely solely on the kindness and generosity of fosters who open their homes and hearts to animals needing a place to stay while we find them their forever homes. Want to make the world a better place in one easy step? Foster a LEAPS dog, puppy, cat or kitten. We are always looking for foster homes for our dogs, puppies, cats and kittens to make sure we can remove 
+                them from unwanted situations as quickly as possible<br />
+                <br />
+                </span>
                 <br />
                 <table style="width:100%;">
                     <tr>
@@ -21,27 +25,35 @@
                         <td class="auto-style9"></td>
                     </tr>
                     <tr>
-                        <td>Name:</td>
+                        <td>
+                            <asp:Label ID="namesTxt" runat="server"></asp:Label>
+                        </td>
                         <td colspan="2" style="vertical-align: middle; text-align: center">
-                            <asp:TextBox ID="nameTxt" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="nameText" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
-                        <td>Address:</td>
+                        <td>
+                            <asp:Label ID="addressesTxt" runat="server"></asp:Label>
+                        </td>
                         <td colspan="2" style="vertical-align: middle; text-align: center">
-                            <asp:TextBox ID="addressTxt" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="addressText" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
-                        <td>Email:</td>
+                        <td>
+                            <asp:Label ID="emailsTxt" runat="server"></asp:Label>
+                        </td>
                         <td colspan="2" style="vertical-align: middle; text-align: center">
-                            <asp:TextBox ID="emailTxt" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="emailText" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
-                        <td>Tel. Number:</td>
+                        <td>
+                            <asp:Label ID="numberTxt" runat="server"></asp:Label>
+                        </td>
                         <td colspan="2" style="vertical-align: middle; text-align: center">
-                            <asp:TextBox ID="telnoTxt" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="telnoText" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -84,6 +96,88 @@
                         <td>
                             <asp:Label ID="ageAndNoChildrenTxt" runat="server"></asp:Label>
                         </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="alergiesTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="currentPetsTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="workTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="gardenSizeTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="fosterSleepTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="rentedAccomidationTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="transportTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="exerciseTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="poolTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="safeIndoorsTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="quantityAnimalTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="specialNeedsAnimalsTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="olderAnimalsTxt" runat="server"></asp:Label>
+                        </td>
+                        <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
                         <td colspan="2" style="vertical-align: middle; text-align: center">&nbsp;</td>
                     </tr>
                     <tr>
