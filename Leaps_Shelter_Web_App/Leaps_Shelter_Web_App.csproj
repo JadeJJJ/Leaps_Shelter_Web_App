@@ -175,6 +175,7 @@
     <Content Include="Pages\Volunteer.aspx" />
     <Content Include="Pictures\backgroundtest1.PNG" />
     <Content Include="Pictures\backgroundtest4.png" />
+    <Content Include="Pictures\backgroundtest9.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
