@@ -20,15 +20,6 @@
                         <td class="auto-style12"></td>
                     </tr>
                     <tr>
-                        <td class="auto-style29">
-                            <asp:Image ID="Image2" runat="server" CssClass="auto-style31" Height="283px" ImageUrl="~/Pictures/zsfiohv1jr691.jpg" Width="381px" />
-                        </td>
-                        <td class="auto-style25">In order to be a foster, you must be at least 18 years of age and all of your existing pets must be spayed or neutered and up to date with vaccinations. Also required, is some time, patience and a lot of love! Fostering an animal can be a lot of work, but we will do our best to prepare you, so that fostering can be a rewarding experience. We will always discuss any specific needs that both you and your foster may have and we are always available to answer any questions.</td>
-                        <td class="auto-style26">
-                            <asp:Image ID="Image3" runat="server" Height="285px" ImageUrl="~/Pictures/nqxfh0lxkpr91.png" Width="354px" />
-                        </td>
-                    </tr>
-                    <tr>
                         <td class="auto-style28"></td>
                         <td class="auto-style22"></td>
                         <td class="auto-style12"></td>
