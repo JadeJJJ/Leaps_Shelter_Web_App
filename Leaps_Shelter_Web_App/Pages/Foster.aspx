@@ -20,16 +20,7 @@
                         <td class="auto-style12"></td>
                     </tr>
                     <tr>
-                        <td class="auto-style28"></td>
-                        <td class="auto-style22"></td>
-                        <td class="auto-style12"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" class="auto-style27">
-                            <asp:Image ID="Image4" runat="server" Height="328px" ImageUrl="~/Pictures/Stocksy_txp3a9e5e62Quc100_Small_1386725-1503586413546.jpg" Width="378px" />
-                        </td>
-                        <td class="auto-style27">Our animals are adopted via a number of avenues: Facebook, Twitter and Instagram (our handle for all is @helpingthepaw) webpage, e-mail appeals and the occasional adoption day. The foster family’s input is also very valuable in deciding whether the foster dog or cat is the right choice for prospective adopters. It usually take between 1 – 5 months for a foster to be adopted, however some are far quicker and some a little slower. Our adoption process involved an Adoption Form, a Homecheck and an Adoption Fee of R950 which covers vaccinations up to date of adoption, as well as sterilisation when the animal is old enough.</td>
-                    </tr>
+                   </tr>
                     <tr>
                         <td class="auto-style30">&nbsp;</td>
                         <td class="auto-style19">&nbsp;</td>
