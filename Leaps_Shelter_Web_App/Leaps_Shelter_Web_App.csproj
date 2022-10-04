@@ -175,6 +175,11 @@
     <Content Include="Pages\Volunteer.aspx" />
     <Content Include="Pictures\backgroundtest1.PNG" />
     <Content Include="Pictures\backgroundtest4.png" />
+    <Content Include="Pictures\Foster_dog.jpg" />
+    <Content Include="Pictures\Foster_kitten.jpg" />
+    <Content Include="Pictures\Foster_kitties.jpg" />
+    <Content Include="Pictures\Foster_puppies.jpg" />
+    <Content Include="Pictures\Foster_puppy.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
