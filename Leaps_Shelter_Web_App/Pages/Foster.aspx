@@ -10,29 +10,37 @@
                 <table style="width:100%;">
                     <tr>
                         <td class="auto-style14">LEAPS is a non-profit organisation which concentrates on the rescue of dogs and cats in the West Coast area. As we do not have kennel facilities, we are always looking for foster homes for our puppies, dogs, cats and kittens so that they can be removed from unsavoury situations as quickly as possible. When you foster, you are providing a warm and loving temporary home to an animal in need.</td>
-                        <td class="auto-style15" colspan="2">*INSERT PHOTO*</td>
+                        <td class="auto-style15" colspan="2">
+                            <asp:Image ID="Image1" runat="server" Height="281px" ImageUrl="~/Pictures/pi5u5b18ekr91.jpg" Width="445px" />
+                        </td>
                     </tr>
                     <tr>
-                        <td class="auto-style12"></td>
-                        <td class="auto-style12"></td>
-                        <td class="auto-style12"></td>
-                    </tr>
-                    <tr>
-                        <td class="auto-style24"><span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; vertical-align: middle;">*INSERT PHOTO*</span></td>
-                        <td class="auto-style25">In order to be a foster, you must be at least 18 years of age and all of your existing pets must be spayed or neutered and up to date with vaccinations. Also required, is some time, patience and a lot of love! Fostering an animal can be a lot of work, but we will do our best to prepare you, so that fostering can be a rewarding experience. We will always discuss any specific needs that both you and your foster may have and we are always available to answer any questions.</td>
-                        <td class="auto-style26">*INSERT PHOTO*</td>
-                    </tr>
-                    <tr>
-                        <td class="auto-style21"></td>
+                        <td class="auto-style28"></td>
                         <td class="auto-style22"></td>
                         <td class="auto-style12"></td>
                     </tr>
                     <tr>
-                        <td colspan="2" class="auto-style27">*INSERT PHOTO*</td>
+                        <td class="auto-style29">
+                            <asp:Image ID="Image2" runat="server" CssClass="auto-style31" Height="283px" ImageUrl="~/Pictures/zsfiohv1jr691.jpg" Width="381px" />
+                        </td>
+                        <td class="auto-style25">In order to be a foster, you must be at least 18 years of age and all of your existing pets must be spayed or neutered and up to date with vaccinations. Also required, is some time, patience and a lot of love! Fostering an animal can be a lot of work, but we will do our best to prepare you, so that fostering can be a rewarding experience. We will always discuss any specific needs that both you and your foster may have and we are always available to answer any questions.</td>
+                        <td class="auto-style26">
+                            <asp:Image ID="Image3" runat="server" Height="285px" ImageUrl="~/Pictures/nqxfh0lxkpr91.png" Width="354px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style28"></td>
+                        <td class="auto-style22"></td>
+                        <td class="auto-style12"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="auto-style27">
+                            <asp:Image ID="Image4" runat="server" Height="328px" ImageUrl="~/Pictures/Stocksy_txp3a9e5e62Quc100_Small_1386725-1503586413546.jpg" Width="378px" />
+                        </td>
                         <td class="auto-style27">Our animals are adopted via a number of avenues: Facebook, Twitter and Instagram (our handle for all is @helpingthepaw) webpage, e-mail appeals and the occasional adoption day. The foster family’s input is also very valuable in deciding whether the foster dog or cat is the right choice for prospective adopters. It usually take between 1 – 5 months for a foster to be adopted, however some are far quicker and some a little slower. Our adoption process involved an Adoption Form, a Homecheck and an Adoption Fee of R950 which covers vaccinations up to date of adoption, as well as sterilisation when the animal is old enough.</td>
                     </tr>
                     <tr>
-                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style30">&nbsp;</td>
                         <td class="auto-style19">&nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
@@ -296,32 +304,21 @@
         height: 24px;
     }
     .auto-style14 {
-        width: 390px;
+        width: 408px;
         height: 165px;
     }
     .auto-style15 {
         height: 165px;
     }
-    .auto-style18 {
-        width: 390px;
-    }
     .auto-style19 {
-        width: 391px;
-    }
-    .auto-style21 {
-        width: 390px;
-        height: 24px;
+        width: 334px;
     }
     .auto-style22 {
-        width: 391px;
+        width: 334px;
         height: 24px;
     }
-    .auto-style24 {
-        width: 390px;
-        height: 166px;
-    }
     .auto-style25 {
-        width: 391px;
+        width: 334px;
         height: 166px;
     }
     .auto-style26 {
@@ -329,6 +326,20 @@
     }
     .auto-style27 {
         height: 164px;
+    }
+    .auto-style28 {
+        width: 408px;
+        height: 24px;
+    }
+    .auto-style29 {
+        width: 408px;
+        height: 166px;
+    }
+    .auto-style30 {
+        width: 408px;
+    }
+    .auto-style31 {
+        margin-top: 0px;
     }
 </style>
 </asp:Content>
