@@ -25,6 +25,60 @@
         .auto-style6 {
             height: 34px;
         }
+        #homeNav{
+            transition: linear .5s
+        }
+        #homeNav:hover{
+            color:yellow
+        }
+        #aboutNav{
+            transition: linear .5s
+        }
+        #aboutNav:hover{
+            color:yellow
+        }
+        #contNav{
+            transition: linear .5s
+        }
+        #contNav:hover{
+            color:yellow
+        }
+        #adoptNav{
+            transition: linear .5s
+        }
+        #adoptNav:hover{
+            color:yellow
+        }
+        #fosterNav{
+            transition: linear .5s
+        }
+        #fosterNav:hover{
+            color:yellow
+        }
+        #volNav{
+            transition: linear .5s
+        }
+        #volNav:hover{
+            color:yellow
+        }
+        #sdrivesNav{
+            transition: linear .5s
+        }
+        #sdrivesNav:hover{
+            color:yellow
+        }
+        #donNav{
+            transition: linear .5s
+        }
+        #donNav:hover{
+            color:yellow
+        }
+        #soutNav{
+            transition: linear .5s
+        }
+        #soutNav:hover{
+            color:yellow
+        }
         
     </style>
 
@@ -63,15 +117,15 @@
                 </div>
                 <div class="navbar-collapse collapse" style="font-size: 18px; color: white" style="background-color: black" >
                     <ul class="nav navbar-nav" style="background-color: black">
-                        <li><a runat="server" style="background-color: black" href="~/Pages/Home">Home</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/AboutUs">About</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/ContactUs">Contact us</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/Adopt">Adopt</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/Foster">Foster</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/Volunteer">Volunteer</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/SterilizationDrives">Sterilization drives</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/Donations">Donate</a></li>
-                        <li><a runat="server" style="background-color: black">Sign out</a></li>
+                        <li><a id="homeNav" runat="server" style="background-color: black" href="~/Pages/Home">Home</a></li>
+                        <li><a id="aboutNav" runat="server" style="background-color: black" href="~/Pages/AboutUs">About</a></li>
+                        <li><a id="contNav" runat="server" style="background-color: black" href="~/Pages/ContactUs">Contact us</a></li>
+                        <li><a id="adoptNav" runat="server" style="background-color: black" href="~/Pages/Adopt">Adopt</a></li>
+                        <li><a id="fosterNav" runat="server" style="background-color: black" href="~/Pages/Foster">Foster</a></li>
+                        <li><a id="volNav" runat="server" style="background-color: black" href="~/Pages/Volunteer">Volunteer</a></li>
+                        <li><a id="sdrivesNav" runat="server" style="background-color: black" href="~/Pages/SterilizationDrives">Sterilization drives</a></li>
+                        <li><a id="donNav" runat="server" style="background-color: black" href="~/Pages/Donations">Donate</a></li>
+                        <li><a id="soutNav" runat="server" style="background-color: black">Sign out</a></li>
                          <li><a runat="server" style="background-color: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
                                            
                     </ul>
