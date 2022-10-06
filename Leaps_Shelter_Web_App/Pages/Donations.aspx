@@ -4,7 +4,7 @@
     div {background-color: #F5F9B4; }
 
         .auto-style7 {
-            height: 23px;
+            height: 14px;
         }
 
         .MainContentCorners{
@@ -156,7 +156,7 @@
     <br />
     <asp:Label ID="Label8" runat="server" Text="&nbsp;Backabuddy" Font-Names="Calibri" Font-Size="16pt"></asp:Label><br /><br />
     <p style="font-family: Arial; font-size: small; height: 26px;">&nbsp;Click <a href = "https://www.backabuddy.co.za/champion/project/leaps" style="color:black"><u>here</u></a> to donate via the Backabuddy channel.</p><br /><br />
-    <p style="font-family: Arial; font-size: small; height: 86px;">&nbsp;LEAPS is registered in terms of Section 18A of the Income Tax Act - your donation is tax deductible. Contact <a style="color:black" href = "mailto:bronwyn@leaps.co.za"><u>bronwyn@leaps.co.za</u></a> or <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="Black" NavigateUrl="tel:+27722837521"><u>0722837521</u></asp:HyperLink> for &nbsp;your 18A tax certificate.</p><br /><br />
+    <p style="font-family: Arial; font-size: small; height: 86px;">&nbsp;LEAPS is registered in terms of Section 18A of the Income Tax Act - your donation is tax deductible. Contact <a style="color:black" href = "mailto:bronwyn@leaps.co.za"><u>bronwyn@leaps.co.za</u></a> or <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="Black" NavigateUrl="tel:+27722837521"><u>0722837521</u></asp:HyperLink> for your 18A tax certificate.</p><br /><br />
     <br />
     <br />
     <br />
