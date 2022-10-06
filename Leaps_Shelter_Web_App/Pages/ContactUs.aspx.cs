@@ -21,13 +21,16 @@ namespace Leaps_Shelter_Web_App.Pages
 
         public void EmailSender()
         {
+            string userEmailCredentials2 = "USERS CONTACT DETAILS: ";
+            string userEmailCredentials = userEmailTxt.Text;
             string to = emailToTxt.Text; //To address    
             string from = "contactingus4leaps@gmail.com"; //From address    
             MailMessage message = new MailMessage(from, to);
 
             string mailbody = bodyTxt.Text;
+
             message.Subject = subjectTxt.Text;
-            message.Body = mailbody;
+            message.Body = mailbody + "\n" + userEmailCredentials2 + userEmailCredentials;
             message.BodyEncoding = Encoding.UTF8;
             message.IsBodyHtml = true;
             SmtpClient client = new SmtpClient("smtp.gmail.com", 587); //Gmail smtp
@@ -37,15 +40,19 @@ namespace Leaps_Shelter_Web_App.Pages
             client.EnableSsl = true;
             client.UseDefaultCredentials = false;
             client.Credentials = basicCredential1;
-            try
-            {
-                client.Send(message);
-            }
 
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+            
+                try
+                {
+                    client.Send(message);
+                }
+
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            
+            
         }
 
 

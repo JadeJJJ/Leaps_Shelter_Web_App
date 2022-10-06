@@ -25,11 +25,65 @@
         .auto-style6 {
             height: 34px;
         }
+        #homeNav{
+            transition: linear .5s
+        }
+        #homeNav:hover{
+            color:yellow
+        }
+        #aboutNav{
+            transition: linear .5s
+        }
+        #aboutNav:hover{
+            color:yellow
+        }
+        #contNav{
+            transition: linear .5s
+        }
+        #contNav:hover{
+            color:yellow
+        }
+        #adoptNav{
+            transition: linear .5s
+        }
+        #adoptNav:hover{
+            color:yellow
+        }
+        #fosterNav{
+            transition: linear .5s
+        }
+        #fosterNav:hover{
+            color:yellow
+        }
+        #volNav{
+            transition: linear .5s
+        }
+        #volNav:hover{
+            color:yellow
+        }
+        #sdrivesNav{
+            transition: linear .5s
+        }
+        #sdrivesNav:hover{
+            color:yellow
+        }
+        #donNav{
+            transition: linear .5s
+        }
+        #donNav:hover{
+            color:yellow
+        }
+        #soutNav{
+            transition: linear .5s
+        }
+        #soutNav:hover{
+            color:yellow
+        }
         
     </style>
 
 </head>
-<body  style="background-image:url('../Pictures/backgroundtest4.PNG')"> <!-- style="background-image:url('Pictures/backgroundtest1.PNG')" -->
+<body  style="background-image:url('../Pictures/backgroundtest9.PNG')"> <!-- style="background-image:url('Pictures/backgroundtest1.PNG')" -->
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -50,34 +104,37 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
+        
+        
         <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: black">
             <div class="container" style="background-color: black">
                 <div class="navbar-header" style="background-color: black">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="background-color: black">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server"  href="~/Pages/Home">Leaps Animal Shelter</a>
+                    <!--<a class="navbar-brand" runat="server">Leaps Animal Shelter</a>-->
                 </div>
                 <div class="navbar-collapse collapse" style="font-size: 18px; color: white" style="background-color: black" >
                     <ul class="nav navbar-nav" style="background-color: black">
-                        <li><a runat="server" style="background-color: black" href="~/Pages/Home">Home</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/AboutUs">About</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/ContactUs">Contact us</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/Adopt">Adopt</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/Foster">Foster</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/Volunteer">Volunteer</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/SterilizationDrives">Sterilization drives</a></li>
-                        <li><a runat="server" style="background-color: black" href="~/Pages/Donations">Donate</a></li>
-                        <li><a runat="server" style="background-color: black">Sign out</a></li>
+                        <li><a id="homeNav" runat="server" style="background-color: black" href="~/Pages/Home">Home</a></li>
+                        <li><a id="aboutNav" runat="server" style="background-color: black" href="~/Pages/AboutUs">About</a></li>
+                        <li><a id="contNav" runat="server" style="background-color: black" href="~/Pages/ContactUs">Contact us</a></li>
+                        <li><a id="adoptNav" runat="server" style="background-color: black" href="~/Pages/Adopt">Adopt</a></li>
+                        <li><a id="fosterNav" runat="server" style="background-color: black" href="~/Pages/Foster">Foster</a></li>
+                        <li><a id="volNav" runat="server" style="background-color: black" href="~/Pages/Volunteer">Volunteer</a></li>
+                        <li><a id="sdrivesNav" runat="server" style="background-color: black" href="~/Pages/SterilizationDrives">Sterilization drives</a></li>
+                        <li><a id="donNav" runat="server" style="background-color: black" href="~/Pages/Donations">Donate</a></li>
+                        <li><a id="soutNav" runat="server" style="background-color: black">Sign out</a></li>
+                         <!--<li><a runat="server" style="background-color: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>-->
                                            
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="container body-content">
+            
+        <div class="container body-content"> <!--  style="background-color:black" -->
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
@@ -131,7 +188,7 @@
                     					<h3>Sign up for our Newsletter!</h3>
                     <p class="auto-style5"></p>
                     <label>Email address:&nbsp;&nbsp;&nbsp; </label>
-                    <div style="color: black">
+                    <div style="color: black; background-color: black">
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                     </div>
                     <p class="auto-style4"></p>
@@ -139,42 +196,11 @@
                     <asp:Button ID="signUpButton" runat="server" Text="Sign-up" Width="107px" BackColor="#FFFF66"/>
                     </div>
 
-                    <!--
-				</div>
-                <div class="auto-style7"  style="background-color: black; color: white">
-
-				</div>
-                -->
-                <!-- 
-				<div class="agileinfo_footer_grid_list">
-					<h3>Navigation</h3>
-					<ul class="agileinfo_footer_grid_nav">
-						<li><a runat="server" href="~/Pages/Home">Home</a></li>
-                        <li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="index.html">Home</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="about.html">About Us</a></li>
-						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="icons.html">Icons</a></li>
-						<li><a runat="server" href="~/Pages/Home">To top</a></li>
-					</ul>
-
-				</div>
-                    -->
 
                     			</div>
-
-                    
-
-                
+      
 		</div>
-            <!--
-                            <div class="col-md-4 agileinfo_footer_grid" style="background-color: black; color: white">
-					<div class="agile-logo" style="background-color: black">
-              
-                       <div style="background-color:black; width: max-content; height: 45px; border-radius: 8px">
-                    <asp:Label ID="Label1" runat="server" style="width: fit-content ;margin-left: 20px; margin-top: 100px" Font-Size="18pt" Font-Names="Calibri" ForeColor="Yellow" Text="Bank details || 324423534534 ||  ksahdljhsadjhlsajdjlaksdjl || fdsdf dsfdfdsff || asddsfdsfsdf" ></asp:Label>
-                </div>
-					</div>
-				</div>
-                -->
+
             </footer>
        
             <!-- stuff displays outside borders here -->
