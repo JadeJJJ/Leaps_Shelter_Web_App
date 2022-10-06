@@ -16,6 +16,20 @@
         .auto-style10 {
             width: 1650px;
         }
+        .auto-style11 {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }        
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
     </style>
     <div runat="server" style="">
 
@@ -27,7 +41,7 @@
             </td>
             <td class="auto-style8" style="color: white">
                 <asp:Button ID="Button1" runat="server" Text="&lt;--" BackColor="Black" Height="67px"/>
-                <asp:Image ID="Image1" runat="server" Height="404px" Width="879px" CssClass="auto-style7"/>
+                <asp:Image ID="Image1" runat="server" Height="404px" Width="879px" CssClass="auto-style11" ImageUrl="~/Pictures/headertest1.PNG"/>
                 <asp:Button ID="Button2" runat="server" Text="--&gt;" BackColor="Black" Height="67px"/>
             </td>
             <td>
