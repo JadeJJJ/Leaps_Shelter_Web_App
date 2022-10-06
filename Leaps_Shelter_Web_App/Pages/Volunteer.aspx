@@ -29,13 +29,30 @@
         .auto-style13 {
             width: 638px;
         }
+        .auto-style15 {
+            width: 542px;
+            height: 20px;
+        }
+        .auto-style16 {
+            width: 47px;
+            height: 20px;
+        }
+        .auto-style17 {
+            height: 20px;
+        }
+        .auto-style18{
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-top: 40px;
+        }
 
     </style>
      
     
-    <div style="background-color:black; width: 100%; height: 100px; border-radius: 8px; text-align:center">
+                <div style="background-color:black; width: 100%; height: 80px; border-radius: 10px 10px 0 0; text-align:center; margin-top: 20px">
                     <asp:Label ID="Label1" runat="server" style="margin-left: 20px; margin-top: 100px; text-align: center" Font-Size="30pt" Font-Names="Calibri" ForeColor="Yellow" Text=" Volunteer"></asp:Label>
                 </div>
+    <div class="auto-style18">
     <table class="nav-justified">
         <tr>
             <td style="width: 542px; height: 35px">&nbsp;</td>
@@ -65,11 +82,11 @@
             <td style="height: 20px"></td>
         </tr>
         <tr>
-            <td style="width: 542px">&nbsp;</td>
-            <td class="modal-sm" style="width: 47px">
+            <td class="auto-style15"></td>
+            <td class="auto-style16">
                 <asp:Label ID="Label3" runat="server"></asp:Label>
             </td>
-            <td>&nbsp;</td>
+            <td class="auto-style17"></td>
         </tr>
         <tr>
             <td style="width: 542px">&nbsp;</td>
@@ -294,4 +311,5 @@
                         <td>&nbsp;</td>
                     </tr>
                 </table>
+        </div>
 </asp:Content>
