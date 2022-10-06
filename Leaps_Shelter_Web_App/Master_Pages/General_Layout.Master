@@ -25,6 +25,9 @@
         .auto-style6 {
             height: 34px;
         }
+        .auto-style400{
+            height: 0px;
+        }
         #homeNav{
             transition: linear .5s
         }
@@ -79,6 +82,18 @@
         #soutNav:hover{
             color:yellow
         }
+        #signinNav{
+            transition: linear .5s
+        }
+        #signinNav:hover{
+            color:yellow
+        }
+        #signoutNav{
+            transition: linear .5s
+        }
+        #signoutNav:hover{
+            color:yellow
+        }
         
     </style>
 
@@ -126,7 +141,8 @@
                         <li><a id="volNav" runat="server" style="background-color: black" href="~/Pages/Volunteer">Volunteer</a></li>
                         <li><a id="sdrivesNav" runat="server" style="background-color: black" href="~/Pages/SterilizationDrives">Sterilization drives</a></li>
                         <li><a id="donNav" runat="server" style="background-color: black" href="~/Pages/Donations">Donate</a></li>
-                        <li><a id="soutNav" runat="server" style="background-color: black">Sign out</a></li>
+                        <li><a id="signinNav" runat="server" style="background-color: black">Sign in</a></li>
+                        <li><a id="signoutNav" runat="server" style="background-color: black">Sign out</a></li>
                          <!--<li><a runat="server" style="background-color: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>-->
                                            
                     </ul>
@@ -156,9 +172,11 @@
 					</div>
 					<div class="agileinfo-social-grids"  style="background-color: black; color: white">
 						<ul>
-							<li><a runat="server" href="~/Pages/Home">Instagram icon</a></li>
-							<li><a runat="server" href="~/Pages/Home">Facebook icon</a></li>
-							<li><a runat="server" href="~/Pages/Home">Twitter icon</a></li>
+							<li><a runat="server" href="https://www.facebook.com/helpingthepaw"><asp:Image ID="Image1" runat="server" ImageUrl="~/Pictures/facebooklogo.png" Width="35px" Height="35px" /></a></li>
+                            <p class ="auto-style400"></p>
+							<li><a runat="server" href="https://www.instagram.com/helpingthepaw/"><asp:Image ID="Image2" runat="server" ImageUrl="~/Pictures/instalogo.png" Width="35px" Height="35px" /></a></li>
+                            <p class ="auto-style400"></p>
+							<li><a runat="server" href="https://mobile.twitter.com/helpingthepaw"><asp:Image ID="Image3" runat="server" ImageUrl="~/Pictures/twitterlogo2.png" Width="35px" Height="35px" /></a></li>
 						</ul>
 
                  <br />
