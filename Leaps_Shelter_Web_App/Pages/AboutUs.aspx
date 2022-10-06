@@ -7,10 +7,15 @@
             margin-top: 40px;
         }
     </style>
-                <br />
-                <div style="background-color:black; width: 100%; height: 80px; border-radius: 10px 10px 0 0; text-align:center">
-                    <asp:Label ID="Label1" runat="server" style="margin-left: 20px; margin-top: 100px" Font-Size="30pt" Font-Names="Calibri" ForeColor="Yellow" Text="About" ></asp:Label>
+
+                <div style="height: 10px; width: fit-content(); background-color: yellow"></div>
+                <div style="background-color:yellow; width: 100%; height: 80px;">
+                <div style="background-color:black; width: 100%; height: 80px; border-radius:  10px 10px 0 0; text-align:center">
+                    <asp:Label ID="Label2" runat="server" style="margin-left: 20px;  text-align: center" Font-Size="30pt" Font-Names="Calibri" ForeColor="Yellow" Text=" About Us"></asp:Label>
                 </div>
+                </div>
+
+                <br />
                 <div class="auto-style7">
                 <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Who are we?<br />
                 <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">LEAPS (established 2008) is a registered, non-profit animal welfare organisation. We are dedicated to helping animals in need in the areas of Elands Bay, Lamberts Bay and Vredenburg up the West Coast, 220 km&nbsp;from Cape Town.<br />
