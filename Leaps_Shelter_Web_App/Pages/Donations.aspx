@@ -14,17 +14,26 @@
         .auto-style8 {
             height: 49px;
         }
+        .auto-style9 {
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-top: 40px
+        }
 
     </style>
-    <table style="width: 100%">
-        <tr>
-            <td>
+
                 <div style="height: 10px; width: fit-content(); background-color: yellow"></div>
                 <div style="background-color:yellow; width: 100%; height: 80px;">
                 <div style="background-color:black; width: 100%; height: 80px; border-radius:  10px 10px 0 0; text-align:center">
                     <asp:Label ID="Label1" runat="server" style="margin-left: 20px;  text-align: center" Font-Size="30pt" Font-Names="Calibri" ForeColor="Yellow" Text=" Donations"></asp:Label>
                 </div>
                 </div>
+
+    <div class="auto-style9">
+    <table style="width: 100%">
+        <tr>
+            <td>
+
                 <br />
             </td>
         </tr>
@@ -161,4 +170,5 @@
     <br />
     <br />
     <br />
+        </div>
     </asp:Content>
