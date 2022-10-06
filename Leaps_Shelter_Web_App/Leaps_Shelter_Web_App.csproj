@@ -177,7 +177,10 @@
     <Content Include="Pictures\backgroundtest1.PNG" />
     <Content Include="Pictures\backgroundtest4.png" />
     <Content Include="Pictures\backgroundtest9.png" />
+    <Content Include="Pictures\facebooklogo.png" />
     <Content Include="Pictures\headertest1.PNG" />
+    <Content Include="Pictures\instalogo.png" />
+    <Content Include="Pictures\twitterlogo2.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
