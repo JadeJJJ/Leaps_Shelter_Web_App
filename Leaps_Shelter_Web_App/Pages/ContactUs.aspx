@@ -16,7 +16,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td colspan="3" style="height: 20px; vertical-align: middle; text-align: center;">
+            <td colspan="3" style="vertical-align: middle; text-align: center;" class="auto-style8">
                 <asp:TextBox ID="userEmailTxt" runat="server">Your Email</asp:TextBox>
             </td>
         </tr>
@@ -24,7 +24,7 @@
             <td colspan="3" style="height: 20px; vertical-align: middle; text-align: center;">&nbsp;</td>
         </tr>
         <tr>
-            <td colspan="3" style="height: 20px; vertical-align: middle; text-align: center;">
+            <td colspan="3" style="vertical-align: middle; text-align: center;" class="auto-style7">
                 <asp:TextBox ID="emailToTxt" runat="server">Send to Email</asp:TextBox>
             </td>
         </tr>
@@ -60,5 +60,11 @@
     </table>
 <style>
     div {background-color: white;}
+    .auto-style7 {
+        height: 19px;
+    }
+    .auto-style8 {
+        height: 20px;
+    }
 </style>
 </asp:Content>
