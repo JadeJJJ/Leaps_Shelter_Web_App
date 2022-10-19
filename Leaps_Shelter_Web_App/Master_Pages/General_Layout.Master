@@ -28,6 +28,15 @@
         .auto-style400{
             height: 0px;
         }
+        .centerStyle{
+            align-content:center
+        }
+        .centerNavBar{
+            margin:0;
+            padding:0;
+            text-align:center;
+
+        }
         #homeNav{
             transition: linear .5s
         }
@@ -94,6 +103,20 @@
         #signoutNav:hover{
             color:yellow
         }
+      .navbar {
+	  background-color: black;
+	  overflow: hidden;	 
+	  margin: auto;
+	}
+	/* Style the links inside the navigation bar */
+	.navbar a {
+	  
+	  color: black;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 20px;
+	}
         
     </style>
 
@@ -121,7 +144,7 @@
         </asp:ScriptManager>
         
         
-        <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: black">
+        <div class="navbar navbar-inverse navbar-fixed-top"  style="background-color: black; ">
             <div class="container" style="background-color: black">
                 <div class="navbar-header" style="background-color: black">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="background-color: black">
@@ -129,24 +152,25 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <!--<a class="navbar-brand" runat="server">Leaps Animal Shelter</a>-->
+                    <!--<a class="navbar-brand" runat="server">Leaps Animal Shelter</a>  -->
                 </div>
-                <div class="navbar-collapse collapse" style="font-size: 18px; color: white" style="background-color: black" >
-                    <ul class="nav navbar-nav" style="background-color: black">
-                        <li><a id="homeNav" runat="server" style="background-color: black" href="~/Pages/Home">Home</a></li>
-                        <li><a id="aboutNav" runat="server" style="background-color: black" href="~/Pages/AboutUs">About</a></li>
-                        <li><a id="contNav" runat="server" style="background-color: black" href="~/Pages/ContactUs">Contact us</a></li>
-                        <li><a id="adoptNav" runat="server" style="background-color: black" href="~/Pages/Adopt">Adopt</a></li>
-                        <li><a id="fosterNav" runat="server" style="background-color: black" href="~/Pages/Foster">Foster</a></li>
-                        <li><a id="volNav" runat="server" style="background-color: black" href="~/Pages/Volunteer">Volunteer</a></li>
-                        <li><a id="sdrivesNav" runat="server" style="background-color: black" href="~/Pages/SterilizationDrives">Sterilization drives</a></li>
-                        <li><a id="donNav" runat="server" style="background-color: black" href="~/Pages/Donations">Donate</a></li>
-                        <li><a id="signinNav" runat="server" style="background-color: black">Sign in</a></li>
-                        <li><a id="signoutNav" runat="server" style="background-color: black">Sign out</a></li>
+                <div class="navbar" style="font-size: 18px; color: white" >
+                    <ul class="nav navbar-nav"><!-- navbar-collapse collapse -->
+                        <li><a id="homeNav" runat="server" href="~/Pages/Home">Home</a></li>
+                        <li><a id="aboutNav" runat="server"  href="~/Pages/AboutUs">About</a></li>
+                        <li><a id="contNav" runat="server"  href="~/Pages/ContactUs">Contact us</a></li>
+                        <li><a id="adoptNav" runat="server" href="~/Pages/AdoptionDisplay">Adopt</a></li>
+                        <li><a id="fosterNav" runat="server" href="~/Pages/Foster">Foster</a></li>
+                        <li><a id="volNav" runat="server" href="~/Pages/Volunteer">Volunteer</a></li>
+                        <li><a id="sdrivesNav" runat="server" href="~/Pages/SterilizationDrives">Sterilization drives</a></li>
+                        <li><a id="donNav" runat="server" href="~/Pages/Donations">Donate</a></li>
+                        <li><a id="signinNav" runat="server">Sign in</a></li>
+                        <li><a id="signoutNav" runat="server">Sign out</a></li>
                          <!--<li><a runat="server" style="background-color: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>-->
                                            
                     </ul>
                 </div>
+                   
             </div>
         </div>
             
@@ -172,11 +196,11 @@
 					</div>
 					<div class="agileinfo-social-grids"  style="background-color: black; color: white">
 						<ul>
-							<li><a runat="server" href="https://www.facebook.com/helpingthepaw"><asp:Image ID="Image1" runat="server" ImageUrl="~/Pictures/facebooklogo.png" Width="35px" Height="35px" /></a></li>
+							<li><a runat="server" target="_blank" href="https://www.facebook.com/helpingthepaw"><asp:Image ID="Image1" runat="server" ImageUrl="~/Pictures/facebooklogo.png" Width="35px" Height="35px" /></a></li>
                             <p class ="auto-style400"></p>
-							<li><a runat="server" href="https://www.instagram.com/helpingthepaw/"><asp:Image ID="Image2" runat="server" ImageUrl="~/Pictures/instalogo.png" Width="35px" Height="35px" /></a></li>
+							<li><a runat="server" target="_blank" href="https://www.instagram.com/helpingthepaw/"><asp:Image ID="Image2" runat="server" ImageUrl="~/Pictures/instalogo.png" Width="35px" Height="35px" /></a></li>
                             <p class ="auto-style400"></p>
-							<li><a runat="server" href="https://mobile.twitter.com/helpingthepaw"><asp:Image ID="Image3" runat="server" ImageUrl="~/Pictures/twitterlogo2.png" Width="35px" Height="35px" /></a></li>
+							<li><a runat="server" target="_blank" href="https://mobile.twitter.com/helpingthepaw"><asp:Image ID="Image3" runat="server" ImageUrl="~/Pictures/twitterlogo2.png" Width="35px" Height="35px" /></a></li>
 						</ul>
 
                  <br />
