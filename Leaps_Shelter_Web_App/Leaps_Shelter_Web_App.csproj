@@ -168,6 +168,7 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Pages\AboutUs.aspx" />
     <Content Include="Pages\Adopt.aspx" />
+    <Content Include="Pages\AdoptionDisplay.aspx" />
     <Content Include="Pages\ContactUs.aspx" />
     <Content Include="Pages\Donations.aspx" />
     <Content Include="Pages\Foster.aspx" />
@@ -250,6 +251,13 @@
     </Compile>
     <Compile Include="Pages\Adopt.aspx.designer.cs">
       <DependentUpon>Adopt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AdoptionDisplay.aspx.cs">
+      <DependentUpon>AdoptionDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AdoptionDisplay.aspx.designer.cs">
+      <DependentUpon>AdoptionDisplay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\ContactUs.aspx.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
