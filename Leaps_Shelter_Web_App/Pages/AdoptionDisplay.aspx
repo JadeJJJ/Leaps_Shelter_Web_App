@@ -31,7 +31,7 @@
             <asp:BoundColumn></asp:BoundColumn>
             <asp:BoundColumn></asp:BoundColumn>
             <asp:BoundColumn></asp:BoundColumn>
-            <asp:HyperLinkColumn></asp:HyperLinkColumn>
+            <asp:HyperLinkColumn NavigateUrl="Adopt.aspx" Text="Adopt this woof"></asp:HyperLinkColumn>
         </Columns>
                 </asp:DataGrid>
     <asp:GridView ID="GridView1" runat="server" Width="368px">
@@ -40,7 +40,7 @@
             </asp:ImageField>
             <asp:BoundField />
             <asp:BoundField />
-            <asp:HyperLinkField />
+            <asp:HyperLinkField NavigateUrl="Adopt.aspx" Text="Adopt this " />
             <asp:BoundField />
         </Columns>
                 </asp:GridView>
