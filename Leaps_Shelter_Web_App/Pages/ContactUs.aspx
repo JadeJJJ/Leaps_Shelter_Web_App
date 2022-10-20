@@ -25,7 +25,7 @@
         </tr>
         <tr>
             <td colspan="3" style="vertical-align: middle; text-align: center;" class="auto-style7">
-                <asp:TextBox ID="emailToTxt" runat="server">Send to Email</asp:TextBox>
+                
             </td>
         </tr>
         <tr>

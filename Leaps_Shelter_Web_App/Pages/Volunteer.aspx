@@ -46,6 +46,13 @@
             margin-right: 40px;
             margin-top: 40px;
         }
+        .auto-styleGeneralText{
+            color: rgb(0, 0, 0);
+            font-family: 'Century Gothic'; 
+            font-size: 17px; 
+            font-style: normal;
+            font-weight: 400;
+        }
 
     </style>
 
@@ -97,7 +104,9 @@
         <tr>
             <td style="width: 542px">&nbsp;</td>
             <td class="modal-sm" style="width: 47px">
+                
                 <asp:Label ID="Label2" runat="server" Text="Enter Email:"></asp:Label>
+                    
             </td>
             <td>&nbsp;</td>
         </tr>
@@ -318,4 +327,5 @@
                     </tr>
                 </table>
         </div>
+
 </asp:Content>

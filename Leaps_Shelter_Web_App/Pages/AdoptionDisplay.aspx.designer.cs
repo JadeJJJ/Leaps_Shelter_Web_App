@@ -11,52 +11,43 @@ namespace Leaps_Shelter_Web_App.Pages
 {
 
 
-    public partial class ContactUs
+    public partial class AdoptionDisplay
     {
 
         /// <summary>
-        /// Label2 control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// userEmailTxt control.
+        /// AdoptDogDG control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox userEmailTxt;
+        protected global::System.Web.UI.WebControls.DataGrid AdoptDogDG;
 
         /// <summary>
-        /// subjectTxt control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox subjectTxt;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// bodyTxt control.
+        /// DataList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox bodyTxt;
-
-        /// <summary>
-        /// sendEmailBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button sendEmailBtn;
+        protected global::System.Web.UI.WebControls.DataList DataList1;
     }
 }
