@@ -8,16 +8,44 @@
                 </div>
                 </div>
         
+    <table style="width: 100%;">
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
 
-
-
+    <asp:DataGrid ID="AdoptDogDG" runat="server">
+        <Columns>
+            <asp:BoundColumn></asp:BoundColumn>
+            <asp:BoundColumn></asp:BoundColumn>
+            <asp:BoundColumn></asp:BoundColumn>
+            <asp:HyperLinkColumn></asp:HyperLinkColumn>
+        </Columns>
+                </asp:DataGrid>
+    <asp:GridView ID="GridView1" runat="server" Width="368px">
+        <Columns>
+            <asp:ImageField>
+            </asp:ImageField>
+            <asp:BoundField />
+            <asp:BoundField />
+            <asp:HyperLinkField />
+            <asp:BoundField />
+        </Columns>
+                </asp:GridView>
+    <asp:DataList ID="DataList1" runat="server"></asp:DataList>
     <style>
     div {background-color: white;}
-    .auto-style7 {
-        height: 19px;
-    }
-    .auto-style8 {
-        height: 20px;
-    }
-</style>
+    </style>
 </asp:Content>

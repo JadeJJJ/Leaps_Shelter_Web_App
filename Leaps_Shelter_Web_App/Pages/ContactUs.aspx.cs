@@ -8,6 +8,7 @@ using System.IO;
 using System.Net;
 using System.Net.Mail;
 using System.Text;
+using System.Windows.Forms;
 
 namespace Leaps_Shelter_Web_App.Pages
 {
@@ -25,9 +26,10 @@ namespace Leaps_Shelter_Web_App.Pages
                 try
                 {
 
-                string userEmailCredentials2 = "USERS CONTACT DETAILS: ";
+                string userEmailCredentials2 = "<br/>" + "USERS CONTACT DETAILS: ";
                 string userEmailCredentials = userEmailTxt.Text;
-                string to = emailToTxt.Text; //To address    
+                //string to = emailToTxt.Text; //To address
+                string to = userEmailTxt.Text;
                 string from = "contactingus4leaps@gmail.com"; //From address    
                 MailMessage message = new MailMessage(from, to);
 
@@ -51,7 +53,7 @@ namespace Leaps_Shelter_Web_App.Pages
 
                 catch (Exception ex)
                 {
-                    throw ex;
+                    MessageBox.Show(ex.ToString());
                 }
             
             
