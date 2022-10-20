@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %>- My ASP.NET Application</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -118,6 +118,11 @@
 	  font-size: 20px;
 	}
         
+        .auto-style401 {
+            left: 0px;
+            top: 0px;
+        }
+        
     </style>
 
 </head>
@@ -204,7 +209,7 @@
 						</ul>
 
                  <br />
-                         <p class="auto-style6" style="color:white"> &copy; <%: DateTime.Now.Year %> - Leaps Animal Shelter - All rights reserved. </p>
+                         <p class="auto-style6" style="color:white"> &copy; <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>- Leaps Animal Shelter - All rights reserved. </p>
 
 					</div>
 				</div>
@@ -226,16 +231,16 @@
 				</div>
 
 
-                <div class="col-md-4 agileinfo_footer_grid"  style="background-color: black; color: white">
+                <div class="auto-style401"  style="background-color: black; color: white">
                     					<h3>Sign up for our Newsletter!</h3>
                     <p class="auto-style5"></p>
                     <label>Email address:&nbsp;&nbsp;&nbsp; </label>
                     <div style="color: black; background-color: black">
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="newsletterTB" runat="server"></asp:TextBox>
                     </div>
                     <p class="auto-style4"></p>
                     <div style="background-color: black; color: black">
-                    <asp:Button ID="signUpButton" runat="server" Text="Sign-up" Width="107px" BackColor="#FFFF66"/>
+                    <asp:Button ID="signUpButton" runat="server" Text="Sign-up" Width="107px" BackColor="#FFFF66" OnClick="signUpButton_Click"/>
                     </div>
 
 

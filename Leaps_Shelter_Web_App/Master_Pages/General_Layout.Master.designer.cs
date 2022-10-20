@@ -141,13 +141,13 @@ namespace Leaps_Shelter_Web_App.Master_Pages
         protected global::System.Web.UI.WebControls.Image Image3;
 
         /// <summary>
-        /// TextBox1 control.
+        /// newsletterTB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox newsletterTB;
 
         /// <summary>
         /// signUpButton control.
