@@ -120,7 +120,7 @@
         <tr>
             <td style="width: 542px">&nbsp;</td>
             <td class="modal-sm" style="width: 47px">
-                <asp:Button ID="Button1" runat="server" Text="Submit" />
+                <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
             </td>
             <td>&nbsp;</td>
         </tr>

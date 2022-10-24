@@ -26,7 +26,7 @@ namespace Leaps_Shelter_Web_App.Master_Pages
                 string userEmailCredentials2 = "<br/>" + "Email address: ";
                 string userEmailCredentials = newsletterTB.Text;
                 //string to = emailToTxt.Text; //To address
-                string to = newsletterTB.Text;
+                string to = "leapsrecieved@gmail.com";
                 string from = "contactingus4leaps@gmail.com"; //From address    
                 MailMessage message = new MailMessage(from, to);
 
@@ -39,7 +39,7 @@ namespace Leaps_Shelter_Web_App.Master_Pages
                 SmtpClient client = new SmtpClient("smtp.gmail.com", 587); //Gmail smtp
                 client.Credentials = new System.Net.NetworkCredential("username", "password");
                 System.Net.NetworkCredential basicCredential1 = new
-                System.Net.NetworkCredential("contactingus4leaps@gmail.com", "yyjjhgxkwnsbdihx");
+                System.Net.NetworkCredential("contactingus4leaps@gmail.com", "tesafkyrbfuuftcx");
                 client.EnableSsl = true;
                 client.UseDefaultCredentials = false;
                 client.Credentials = basicCredential1;
@@ -60,6 +60,7 @@ namespace Leaps_Shelter_Web_App.Master_Pages
         {
             NewsletterEmailSender();
             newsletterTB.Text = "";
+            MessageBox.Show("Your have signed up for our Leaps newsletter!");
         }
     }
 }
