@@ -182,6 +182,7 @@
     <Content Include="Pictures\facebooklogo.png" />
     <Content Include="Pictures\headertest1.PNG" />
     <Content Include="Pictures\instalogo.png" />
+    <Content Include="Pictures\meow.PNG" />
     <Content Include="Pictures\twitterlogo2.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
