@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Employee_Layout.master.cs" Inherits="Leaps_Shelter_Web_App.Master_Pages.Employee_Layout" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LoginReg_Layout.master.cs" Inherits="Leaps_Shelter_Web_App.Master_Pages.LoginReg_Layout" %>
 
 <!DOCTYPE html>
 
@@ -35,93 +35,6 @@
             margin:0;
             padding:0;
             text-align:center;
-
-        }
-        #homeNav{
-            transition: linear .5s
-        }
-        #homeNav:hover{
-            color:yellow
-        }
-        #aboutNav{
-            transition: linear .5s
-        }
-        #aboutNav:hover{
-            color:yellow
-        }
-        #contNav{
-            transition: linear .5s
-        }
-        #contNav:hover{
-            color:yellow
-        }
-        #adoptNav{
-            transition: linear .5s
-        }
-        #adoptNav:hover{
-            color:yellow
-        }
-        #fosterNav{
-            transition: linear .5s
-        }
-        #fosterNav:hover{
-            color:yellow
-        }
-        #volNav{
-            transition: linear .5s
-        }
-        #volNav:hover{
-            color:yellow
-        }
-        #sdrivesNav{
-            transition: linear .5s
-        }
-        #sdrivesNav:hover{
-            color:yellow
-        }
-        #donNav{
-            transition: linear .5s
-        }
-        #donNav:hover{
-            color:yellow
-        }
-        #soutNav{
-            transition: linear .5s
-        }
-        #soutNav:hover{
-            color:yellow
-        }
-        #signinNav{
-            transition: linear .5s
-        }
-        #signinNav:hover{
-            color:yellow
-        }
-        #signoutNav{
-            transition: linear .5s
-        }
-        #signoutNav:hover{
-            color:yellow
-        }
-      .navbar {
-	  background-color: black;
-	  overflow: hidden;	 
-	  margin: auto;
-	}
-	/* Style the links inside the navigation bar */
-	.navbar a {
-	  
-	  color: black;
-	  text-align: center;
-	  padding: 14px 16px;
-	  text-decoration: none;
-	  font-size: 20px;
-	}
-        
-        .auto-style401 {
-            left: 0px;
-            top: 0px;
-        }
         
     </style>
 
@@ -162,4 +75,3 @@
     </form>
 </body>
 </html>
-
