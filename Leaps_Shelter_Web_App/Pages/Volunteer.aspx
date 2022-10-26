@@ -30,17 +30,6 @@
         .auto-style13 {
             width: 638px;
         }
-        .auto-style15 {
-            width: 542px;
-            height: 20px;
-        }
-        .auto-style16 {
-            width: 47px;
-            height: 20px;
-        }
-        .auto-style17 {
-            height: 20px;
-        }
         .auto-style18{
             margin-left: 40px;
             margin-right: 40px;
@@ -64,74 +53,25 @@
                 </div>
      
     
-
+    <br />
     <div class="auto-style18">
     <table class="nav-justified">
         <tr>
-            <td style="width: 542px; height: 35px">&nbsp;</td>
-            <td class="modal-sm" style="width: 47px; height: 35px">
-                &nbsp;</td>
-            <td style="height: 35px" class="auto-style6">&nbsp;</td>
-        </tr>
-        <tr>
-            <td style="width: 542px; height: 35px"></td>
-            <td class="modal-sm" style="width: 47px; height: 35px">
-                <asp:DropDownList ID="DropDownList1" runat="server" Height="34px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" style="margin-left: 0">
-                    <asp:ListItem>Volunteer at Puppy Adoption</asp:ListItem>
-                    <asp:ListItem>Transporting Animals</asp:ListItem>
-                    <asp:ListItem>Homechecks</asp:ListItem>
-                    <asp:ListItem>Assist at fundraising Events</asp:ListItem>
-                    <asp:ListItem>Raise Funds</asp:ListItem>
-                    <asp:ListItem>Introduce us to donors</asp:ListItem>
-                    <asp:ListItem>Volunteer professional Service</asp:ListItem>
-                    <asp:ListItem>Foster</asp:ListItem>
-                </asp:DropDownList>
-            </td>
-            <td style="height: 35px" class="auto-style6"></td>
-        </tr>
-        <tr>
-            <td style="width: 542px; height: 20px"></td>
-            <td class="modal-sm" style="width: 47px; height: 20px"></td>
-            <td style="height: 20px"></td>
-        </tr>
-        <tr>
-            <td class="auto-style15"></td>
-            <td class="auto-style16">
-                <asp:Label ID="Label3" runat="server"></asp:Label>
-            </td>
-            <td class="auto-style17"></td>
-        </tr>
-        <tr>
-            <td style="width: 542px">&nbsp;</td>
-            <td class="modal-sm" style="width: 47px">
-                
-                <asp:Label ID="Label2" runat="server" Text="Enter Email:"></asp:Label>
-                    
-            </td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td style="width: 542px">&nbsp;</td>
-            <td class="modal-sm" style="width: 47px">
-                <asp:TextBox ID="TextBox1" runat="server" Width="208px"></asp:TextBox>
-            </td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td style="width: 542px">&nbsp;</td>
-            <td class="modal-sm" style="width: 47px">
-                <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
-            </td>
-            <td>&nbsp;</td>
-        </tr>
-    </table>
-  <table class="nav-justified">
-        <tr>
-            <td class="auto-style12">
+            <td style="width: 542px; height: 35px">
                 
                 <asp:Label ID="Label5" runat="server" Font-Size="Large" Text="Opportunities:"></asp:Label>
                 
             </td>
+            <td class="modal-sm" style="width: 47px; height: 35px">
+                &nbsp;</td>
+            <td style="height: 35px" class="auto-style6">&nbsp;</td>
+        </tr>
+        </table>
+  <table class="nav-justified">
+        <tr>
+            <td class="auto-style12">
+                
+                &nbsp;</td>
             <td class="modal-sm" style="width: 479px; height: 28px;">
                 &nbsp;</td>
             <td style="height: 28px"></td>
@@ -320,6 +260,28 @@
                     </tr>
                     <tr>
                         <td style="width: 637px">
+                           
+                <asp:DropDownList ID="DropDownList1" runat="server" Height="34px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" style="margin-left: 0">
+                    <asp:ListItem>Volunteer at Puppy Adoption</asp:ListItem>
+                    <asp:ListItem>Transporting Animals</asp:ListItem>
+                    <asp:ListItem>Homechecks</asp:ListItem>
+                    <asp:ListItem>Assist at fundraising Events</asp:ListItem>
+                    <asp:ListItem>Raise Funds</asp:ListItem>
+                    <asp:ListItem>Introduce us to donors</asp:ListItem>
+                    <asp:ListItem>Volunteer professional Service</asp:ListItem>
+                    <asp:ListItem>Foster</asp:ListItem>
+                </asp:DropDownList>
+                            <br />
+                <asp:Label ID="Label3" runat="server"></asp:Label>
+                            <br />
+                
+                <asp:Label ID="Label2" runat="server" Text="Enter Email:"></asp:Label>
+                    
+                            <br />
+                <asp:TextBox ID="TextBox1" runat="server" Width="208px"></asp:TextBox>
+                            <br />
+                <asp:Button ID="Button1" runat="server" Text="Submit" />
+                            <br />
                            
                         </td>
                         <td>&nbsp;</td>

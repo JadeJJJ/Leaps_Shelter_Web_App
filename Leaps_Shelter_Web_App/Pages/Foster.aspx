@@ -126,7 +126,7 @@
                             <asp:Label ID="fosterExperienceTxt" runat="server"></asp:Label>
                         </td>
                         <td colspan="2" style="vertical-align: middle; text-align: center">
-                            <asp:TextBox ID="fosterExperienceText" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="fosterExperienceText" runat="server" OnTextChanged="fosterExperienceText_TextChanged"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
