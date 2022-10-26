@@ -242,8 +242,9 @@
                     <div style="background-color: black; color: black">
                     <asp:Button ID="signUpButton" runat="server" Text="Sign-up" Width="107px" BackColor="#FFFF66" OnClick="signUpButton_Click"/>
                     </div>
-
-
+                    <br />
+                    
+                    <asp:Button ID="LoginButton" runat="server" Text="Login" BackColor="Black" BorderColor="Black" OnClick="LoginButton_Click" />
                     			</div>
       
 		</div>
