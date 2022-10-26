@@ -1,15 +1,15 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master_Pages/General_Layout.Master" AutoEventWireup="true" CodeBehind="Foster.aspx.cs" Inherits="Leaps_Shelter_Web_App.Pages.Foster" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
+                <div class="auto-styleGeneralText"></div>
                 <div style="height: 10px; width: fit-content(); background-color: yellow"></div>
                 <div style="background-color:yellow; width: 100%; height: 80px;">
                 <div style="background-color:black; width: 100%; height: 80px; border-radius:  10px 10px 0 0; text-align:center">
-                    <asp:Label ID="Label4" runat="server" style="margin-left: 20px;  text-align: center" Font-Size="30pt" Font-Names="Calibri" ForeColor="Yellow" Text=" Foster"></asp:Label>
+                    <asp:Label ID="Label4" runat="server" style="margin-left: 20px;  text-align: center" Font-Size="30pt" ForeColor="Yellow" Text=" Foster"></asp:Label>
                 </div>
                 </div>
                 <div class="auto-style28">
-                <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; vertical-align: middle;">LEAPS does not have a shelter or kennel facilities. We rely solely on the kindness and generosity of fosters who open their homes and hearts to animals needing a place to stay while we find them their forever homes. Want to make the world a better place in one easy step? Foster a LEAPS dog, puppy, cat or kitten. We are always looking for foster homes for our dogs, puppies, cats and kittens to 
-                make sure we can remove them from unwanted situations as quickly as possible! <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">We will do our best to prepare you for your fostering journey. We are always available to answer your questions and to provide guidance and assistance. LEAPS will cover all medical expenses for the animal you are fostering.</span><br />
+                <span style="color: rgb(0, 0, 0); font-family: 'Century Gothic'; , wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; vertical-align: middle;">LEAPS does not have a shelter or kennel facilities. We rely solely on the kindness and generosity of fosters who open their homes and hearts to animals needing a place to stay while we find them their forever homes. Want to make the world a better place in one easy step? Foster a LEAPS dog, puppy, cat or kitten. We are always looking for foster homes for our dogs, puppies, cats and kittens to 
+                make sure we can remove them from unwanted situations as quickly as possible! <span style="color: rgb(0, 0, 0); font-family: 'Century Gothic', wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">We will do our best to prepare you for your fostering journey. We are always available to answer your questions and to provide guidance and assistance. LEAPS will cover all medical expenses for the animal you are fostering.</span><br />
                 <br />
                     
                 <table style="width:100%;">
@@ -340,6 +340,14 @@
             margin-left: 40px;
             margin-right: 40px;
             margin-top: 40px;
+            color: rgb(0, 0, 0);
+            font-family: 'Century Gothic'; 
+            font-size: 17px; 
+            font-style: normal;
+            font-weight: 400;
     }
+      .auto-styleGeneralText{
+
+        }
 </style>
 </asp:Content>

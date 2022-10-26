@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master_Pages/General_Layout.Master" AutoEventWireup="true" CodeBehind="Adopt.aspx.cs" Inherits="Leaps_Shelter_Web_App.Pages.Adopt" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+                <div> </div>
                 <div style="height: 10px; width: fit-content(); background-color: yellow"></div>
                 <div style="background-color:yellow; width: 100%; height: 80px;">
                 <div style="background-color:black; width: 100%; height: 80px; border-radius:  10px 10px 0 0; text-align:center">
@@ -7,9 +8,9 @@
                 </div>
                 </div>
                 <br />
-<asp:Label ID="Label12" runat="server" Font-Size="Large" Text="Adopt"></asp:Label>
+
 <br />
-<br />
+    <div class="auto-styleSpacing">
 <span style="font-family:'Century Gothic'">LEAPS has many dogs, puppies, cats and kittens looking for loving forever homes. Please visit our Facebook page for up to date information.<br />
 
  
@@ -644,7 +645,14 @@ Contact bronwyn@leaps.co.za on 0722837521 for cat and kitten fostering.<br />
                     </tr>
                 </table>
  </span>   
+        </div>
 <style>
     div {background-color: white;}
+        .auto-styleSpacing{
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-top: 40px;
+        }
+
 </style>
 </asp:Content>
