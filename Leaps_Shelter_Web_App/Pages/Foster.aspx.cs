@@ -343,5 +343,15 @@ namespace Leaps_Shelter_Web_App.Pages
             //DISPLAYING RELEVANT FOSTERING FORMS USING FOLLOWING METHOD...
             dropdownSelect();
         }
+
+        protected void fosterExperienceText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void categoryDropdown_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

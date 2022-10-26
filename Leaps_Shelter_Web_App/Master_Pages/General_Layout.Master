@@ -164,7 +164,7 @@
                         <li><a id="homeNav" runat="server" href="~/Pages/Home">Home</a></li>
                         <li><a id="aboutNav" runat="server"  href="~/Pages/AboutUs">About</a></li>
                         <li><a id="contNav" runat="server"  href="~/Pages/ContactUs">Contact us</a></li>
-                        <li><a id="adoptNav" runat="server" href="~/Pages/AdoptionDisplay">Adopt</a></li>
+                        <li><a id="adoptNav" runat="server" href="~/Pages/Adopt">Adopt</a></li>
                         <li><a id="fosterNav" runat="server" href="~/Pages/Foster">Foster</a></li>
                         <li><a id="volNav" runat="server" href="~/Pages/Volunteer">Volunteer</a></li>
                         <li><a id="sdrivesNav" runat="server" href="~/Pages/SterilizationDrives">Sterilization drives</a></li>
@@ -242,8 +242,9 @@
                     <div style="background-color: black; color: black">
                     <asp:Button ID="signUpButton" runat="server" Text="Sign-up" Width="107px" BackColor="#FFFF66" OnClick="signUpButton_Click"/>
                     </div>
-
-
+                    <br />
+                    
+                    <asp:Button ID="LoginButton" runat="server" Text="Login" BackColor="Black" BorderColor="Black" OnClick="LoginButton_Click" />
                     			</div>
       
 		</div>
