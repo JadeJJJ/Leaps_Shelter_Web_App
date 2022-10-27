@@ -66,7 +66,58 @@
                 &nbsp;</td>
             <td style="height: 35px" class="auto-style6">&nbsp;</td>
         </tr>
-        </table>
+        <tr>
+            <td style="width: 542px; height: 35px"></td>
+            <td class="modal-sm" style="width: 47px; height: 35px">
+                <asp:DropDownList ID="DropDownList1" runat="server" Height="34px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" style="margin-left: 0">
+                    <asp:ListItem>Volunteer at Puppy Adoption</asp:ListItem>
+                    <asp:ListItem>Transporting Animals</asp:ListItem>
+                    <asp:ListItem>Homechecks</asp:ListItem>
+                    <asp:ListItem>Assist at fundraising Events</asp:ListItem>
+                    <asp:ListItem>Raise Funds</asp:ListItem>
+                    <asp:ListItem>Introduce us to donors</asp:ListItem>
+                    <asp:ListItem>Volunteer professional Service</asp:ListItem>
+                    <asp:ListItem>Foster</asp:ListItem>
+                </asp:DropDownList>
+            </td>
+            <td style="height: 35px" class="auto-style6"></td>
+        </tr>
+        <tr>
+            <td style="width: 542px; height: 20px"></td>
+            <td class="modal-sm" style="width: 47px; height: 20px"></td>
+            <td style="height: 20px"></td>
+        </tr>
+        <tr>
+            <td class="auto-style15"></td>
+            <td class="auto-style16">
+                <asp:Label ID="Label3" runat="server"></asp:Label>
+            </td>
+            <td class="auto-style17"></td>
+        </tr>
+        <tr>
+            <td style="width: 542px">&nbsp;</td>
+            <td class="modal-sm" style="width: 47px">
+                
+                <asp:Label ID="Label2" runat="server" Text="Enter Email:"></asp:Label>
+                    
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width: 542px">&nbsp;</td>
+            <td class="modal-sm" style="width: 47px">
+                <asp:TextBox ID="TextBox1" runat="server" Width="208px"></asp:TextBox>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width: 542px">&nbsp;</td>
+            <td class="modal-sm" style="width: 47px">
+                <asp:Button ID="Button1" runat="server" Text="Submit" />
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
   <table class="nav-justified">
         <tr>
             <td class="auto-style12">
