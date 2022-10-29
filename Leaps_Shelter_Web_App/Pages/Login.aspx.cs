@@ -39,7 +39,8 @@ namespace Leaps_Shelter_Web_App.Pages
             else
             {
                 //("Incorrect username and/or password entered,Try Again ");
-               username.Text = "";
+                Response.Write("<script>alert('Incorrect Username or Password !!')</script>");
+                username.Text = "";
                 password.Text = "";
             }
         }
