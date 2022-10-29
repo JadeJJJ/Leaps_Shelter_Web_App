@@ -143,6 +143,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ADAM_SS.css" />
+    <Content Include="App_Data\LeapsShelterDB.mdf" />
+    <Content Include="App_Data\LeapsShelterDB_log.ldf">
+      <DependentUpon>LeapsShelterDB.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -164,6 +168,8 @@
     <Content Include="Images %28Adam%29\pexels-anna-shvets-4588010.jpg" />
     <Content Include="Images %28Adam%29\pexels-dmitriy-piskarev-9191778.jpg" />
     <Content Include="Images %28Adam%29\pexels-kampus-production-8734443.jpg" />
+    <Content Include="Images %28Adam%29\bg3.jpg" />
+    <Content Include="Images %28Adam%29\wallpaper2.jpg" />
     <Content Include="Master_Pages\General_Layout.Master" />
     <Content Include="Master_Pages\Employee_Layout.Master" />
     <Content Include="Master_Pages\LoginReg_Layout.Master" />
@@ -177,7 +183,6 @@
     <Content Include="Pages\EmployeeHome.aspx" />
     <Content Include="Pages\Foster.aspx" />
     <Content Include="Pages\Home.aspx" />
-    <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\SterilizationDrives.aspx" />
     <Content Include="Pages\Volunteer.aspx" />
     <Content Include="Pictures\backgroundtest1.PNG" />
@@ -314,13 +319,6 @@
     <Compile Include="Pages\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Pages\SterilizationDrives.aspx.cs">
       <DependentUpon>SterilizationDrives.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -359,8 +357,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="AdoptionPhotos\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Database\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
