@@ -8,8 +8,9 @@
                 </div>
                 </div>
                 <div class="auto-style28">
-                <span style="color: rgb(0, 0, 0); font-family: 'Century Gothic'; , wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; vertical-align: middle;">LEAPS does not have a shelter or kennel facilities. We rely solely on the kindness and generosity of fosters who open their homes and hearts to animals needing a place to stay while we find them their forever homes. Want to make the world a better place in one easy step? Foster a LEAPS dog, puppy, cat or kitten. We are always looking for foster homes for our dogs, puppies, cats and kittens to 
-                make sure we can remove them from unwanted situations as quickly as possible! <span style="color: rgb(0, 0, 0); font-family: 'Century Gothic', wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">We will do our best to prepare you for your fostering journey. We are always available to answer your questions and to provide guidance and assistance. LEAPS will cover all medical expenses for the animal you are fostering.</span><br />
+                    <span style="font-family:'Century Gothic'">
+                LEAPS does not have a shelter or kennel facilities. We rely solely on the kindness and generosity of fosters who open their homes and hearts to animals needing a place to stay while we find them their forever homes. Want to make the world a better place in one easy step? Foster a LEAPS dog, puppy, cat or kitten. We are always looking for foster homes for our dogs, puppies, cats and kittens to 
+                make sure we can remove them from unwanted situations as quickly as possible! We will do our best to prepare you for your fostering journey. We are always available to answer your questions and to provide guidance and assistance. LEAPS will cover all medical expenses for the animal you are fostering.<br />
                 <br />
                     
                 <table style="width:100%;">
@@ -58,6 +59,7 @@
                         <td class="auto-style12" style="vertical-align: middle; text-align: center">IF YOU WISH TO PROCEED WITH THE FOSTERING PROCESS, YOU MAY PROCEED BELOW</td>
                     </tr>
                 </table>
+                        <span />
                 </span>
                 <br />
                 <table style="width:100%;">
