@@ -199,13 +199,13 @@
 						<h3>Find us online</h3>
                         <p class="auto-style5"></p>
 					</div>
-					<div class="agileinfo-social-grids"  style="background-color: black; color: white">
+					<div class="agileinfo-social-grids"  style="background-color: black; color: white; margin-left: 15px;">
 						<ul>
-							<li><a runat="server" target="_blank" href="https://www.facebook.com/helpingthepaw"><asp:Image ID="Image1" runat="server" ImageUrl="~/Pictures/facebooklogo.png" Width="35px" Height="35px" /></a></li>
+							<a runat="server" target="_blank" href="https://www.facebook.com/helpingthepaw"><asp:Image ID="Image1" runat="server" ImageUrl="~/Pictures/facebooklogo.png" Width="35px" Height="35px"/></a>
                             <p class ="auto-style400"></p>
-							<li><a runat="server" target="_blank" href="https://www.instagram.com/helpingthepaw/"><asp:Image ID="Image2" runat="server" ImageUrl="~/Pictures/instalogo.png" Width="35px" Height="35px" /></a></li>
+							<a runat="server" target="_blank" href="https://www.instagram.com/helpingthepaw/"><asp:Image ID="Image2" runat="server" ImageUrl="~/Pictures/instalogo.png" Width="35px" Height="35px" /></a>
                             <p class ="auto-style400"></p>
-							<li><a runat="server" target="_blank" href="https://mobile.twitter.com/helpingthepaw"><asp:Image ID="Image3" runat="server" ImageUrl="~/Pictures/twitterlogo2.png" Width="35px" Height="35px" /></a></li>
+							<a runat="server" target="_blank" href="https://mobile.twitter.com/helpingthepaw"><asp:Image ID="Image3" runat="server" ImageUrl="~/Pictures/twitterlogo2.png" Width="35px" Height="35px" ImageAlign="Middle" /></a>
 						</ul>
 
                  <br />
@@ -231,8 +231,8 @@
 				</div>
 
 
-                <div class="auto-style401"  style="background-color: black; color: white">
-                    					<h3>Sign up for our Newsletter!</h3>
+                <div class="col-md-4 agileinfo_footer_grid"  style="background-color: black; color: white">
+                    <h3>Sign up for our Newsletter!</h3>
                     <p class="auto-style5"></p>
                     <label>Email address:&nbsp;&nbsp;&nbsp; </label>
                     <div style="color: black; background-color: black">
