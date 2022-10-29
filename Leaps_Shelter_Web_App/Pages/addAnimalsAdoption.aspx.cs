@@ -20,7 +20,7 @@ namespace Leaps_Shelter_Web_App.Pages
         protected void Page_Load(object sender, EventArgs e)
         {
             GVbind();
-            ClearEntries();
+          // ClearEntries();
            // 
 
         }
@@ -62,15 +62,18 @@ namespace Leaps_Shelter_Web_App.Pages
 
             try
             {
-                string extension = Path.GetExtension(addAnimalPhoto.FileName);
-                if (extension == ".jpg" || extension == ".jpeg" || extension == ".png")
-                {
 
-                    if (addAnimalPhoto.PostedFile.ContentLength <= 500000)
-                    {
 
-                        if (addAnimalPhoto.HasFiles || animalNameTB.Text == String.Empty || animalTypeDDL.SelectedItem.Text.ToString() == String.Empty || breedTB.Text == String.Empty || animalAgeTB.Text == String.Empty || genderDDL.SelectedItem.Text.ToString() == String.Empty || descriptionTB.Text == String.Empty || sterilizationDDL.SelectedItem.Text.ToString() == String.Empty || vaccinationDDL.SelectedItem.Text.ToString() == String.Empty)
+
+
+                        if (addAnimalPhoto.HasFiles)
                         {
+                            if (addAnimalPhoto.PostedFile.ContentLength <= 500000)
+                            {
+
+                                string extension = Path.GetExtension(addAnimalPhoto.FileName);
+                                if (extension == ".jpg" || extension == ".jpeg" || extension == ".png")
+                                {
 
 
                             string fname = Path.GetFileName(addAnimalPhoto.FileName);
@@ -82,13 +85,16 @@ namespace Leaps_Shelter_Web_App.Pages
                                 cmd.ExecuteNonQuery();
                             // if (t > 0)
                             // {
-                            
-                                //Clear();
-                                //this.GridView1.DataBind();
-                                ClearEntries();
-                            
-                                GVbind();
-                           // }
+
+                            //Clear();
+                            //this.GridView1.DataBind();
+                            GVbind();
+                            Response.Redirect("addAnimalsAdoption.aspx");
+                            ClearEntries();
+                            Response.Write("<script>alert('Animal has been uploaded to the adoption page!')</script>");
+
+
+                            // }
                         }
                         else
                         {
@@ -111,8 +117,6 @@ namespace Leaps_Shelter_Web_App.Pages
                 Label1.Text = "only jpg,jpeg or png Files are accepted!!" + ex.Message;
             }
 
-            Response.Redirect("addAnimalsAdoption.aspx");
-            Response.Write("<script>alert('Animal has been uploaded to the adoption page!')</script>");
         }
     }
 }
