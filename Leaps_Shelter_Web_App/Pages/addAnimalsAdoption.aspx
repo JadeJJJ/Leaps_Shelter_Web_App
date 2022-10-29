@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master_Pages/Employee_Layout.Master" AutoEventWireup="true" CodeBehind="addAnimalsAdoption.aspx.cs" Inherits="Leaps_Shelter_Web_App.Pages.addAnimalsAdoption" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-                <div style="height: 10px; width: fit-content(); background-color: yellow"></div>
+                <div style="height: 10px; width: auto; background-color: yellow"></div>
                 <div style="background-color:yellow; width: 100%; height: 80px;">
                 <div style="background-color:black; width: 100%; height: 80px; border-radius:  10px 10px 0 0; text-align:center">
                 <asp:Label ID="Label1" runat="server" style="margin-left: 20px;  text-align: center" Font-Size="30pt" Font-Names="Calibri" ForeColor="Yellow" Text=" Add animals"></asp:Label>
@@ -9,7 +9,7 @@
                 </div>
 
                 <br />
-    <div class="auto-styleGeneralText" style="width:100%">
+    <div class="auto-styleGeneralText" >
 
 
         <table style="width: 100%;">
@@ -141,9 +141,9 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td style="width: 411px">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td style="width: 411px; height: 24px;"></td>
+                <td style="height: 24px"></td>
+                <td style="height: 24px"></td>
             </tr>
         </table>
 
