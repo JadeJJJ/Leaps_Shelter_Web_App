@@ -17,7 +17,7 @@ namespace Leaps_Shelter_Web_App.Pages
         public String filteyByAge;
         public List<SqlParameter> paramList = new List<SqlParameter>();
 
-        SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
+        SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsDB.mdf;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -45,7 +45,7 @@ namespace Leaps_Shelter_Web_App.Pages
 
         protected void DLBind()
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsDB.mdf;Integrated Security=True");
             con.Open();
             SqlCommand cmd = new SqlCommand("SELECT * from leapsANIMAL", con);
             SqlDataReader dr = cmd.ExecuteReader();
@@ -103,7 +103,7 @@ namespace Leaps_Shelter_Web_App.Pages
         private void BindGrid(string query, CommandType commandType, SqlParameter[] parameters)
         {
             DataTable dt = new DataTable();
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsDB.mdf;Integrated Security=True");
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.CommandType = commandType;
             if (parameters.Length > 0)

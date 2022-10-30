@@ -18,5 +18,12 @@ namespace Leaps_Shelter_Web_App.Pages
         {
             
         }
+
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            Random ran = new Random();
+            int i = ran.Next(1, 5);
+            Image1.ImageUrl = "~/SlideShow/" + i.ToString() + ".jpg";
+        }
     }
 }
