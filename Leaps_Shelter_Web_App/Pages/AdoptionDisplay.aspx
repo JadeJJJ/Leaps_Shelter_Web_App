@@ -10,31 +10,44 @@
         <div class="auto-style7">
     <table style="width: 100%;">
         <tr>
-            <td style="width: 730px">&nbsp;</td>
+            <td style="width: 868px">&nbsp;</td>
             <td style="width: 841px">&nbsp;</td>
             <td style="width: 727px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 730px">&nbsp;</td>
+            <td style="width: 868px">&nbsp;</td>
             <td style="width: 841px">&nbsp;</td>
             <td style="width: 727px">&nbsp;</td>
         </tr>
-        <tr style="background-color:black; height: 60px">
-            <td style="width:730px">
-                <asp:DropDownList ID="DropDownList1" runat="server">
+        <tr style="background-color:black; ">
+            <td style="width:868px; height: 60px;">
+                <asp:DropDownList ID="typeDDL" runat="server">
+                    <asp:ListItem Value="0">Type</asp:ListItem>
+                    <asp:ListItem>Cat</asp:ListItem>
+                    <asp:ListItem>Dog</asp:ListItem>
                 </asp:DropDownList>
 &nbsp;&nbsp;
-                <asp:DropDownList ID="DropDownList2" runat="server">
+                <asp:DropDownList ID="genderDDL" runat="server" Height="23px">
+                    <asp:ListItem Value="0">Gender</asp:ListItem>
+                    <asp:ListItem>Male</asp:ListItem>
+                    <asp:ListItem>Female</asp:ListItem>
                 </asp:DropDownList>
+&nbsp;
+                <asp:DropDownList ID="yearsDDL" runat="server" OnSelectedIndexChanged="yearsDDL_SelectedIndexChanged">
+                    <asp:ListItem>Age</asp:ListItem>
+                    <asp:ListItem>Descending</asp:ListItem>
+                    <asp:ListItem>Ascending</asp:ListItem>
+                </asp:DropDownList>
+            &nbsp;&nbsp;&nbsp; <asp:Button ID="filterButton" runat="server" OnClick="filterButton_Click" Text="Filter" />
+&nbsp;
+                <asp:Button ID="clearFiltersBTN" runat="server" OnClick="clearFiltersBTN_Click1" Text="Clear" />
             </td>
-            <td style="width:fit-content">
-                <asp:DropDownList ID="DropDownList3" runat="server">
-                </asp:DropDownList>
+            <td style="width:fit-content; height: 60px;">
 &nbsp;&nbsp;
                 <asp:DropDownList ID="DropDownList4" runat="server">
                 </asp:DropDownList>
             </td>
-            <td style="width:fit-content">&nbsp;&nbsp;
+            <td style="width:fit-content; height: 60px;">&nbsp;&nbsp;
                 <asp:DropDownList ID="DropDownList5" runat="server">
                 </asp:DropDownList>
             </td>
@@ -78,6 +91,7 @@
                                     &nbsp;|
                                     <asp:HyperLink ID="moreDetailsHL" Font-Underline="true" runat="server">More details</asp:HyperLink>
                                     <br />
+                                    <asp:Label ID="hiddenTypeID" runat="server"  Text='<%#Eval("ANIMAL_TYPE") %>' Visible="false"></asp:Label>
                                     <br />
                                 </div>
                                 </ItemTemplate>

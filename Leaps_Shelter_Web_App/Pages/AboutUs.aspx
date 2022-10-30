@@ -12,7 +12,7 @@
             font-weight: 400;
         }
                                 .auto-style78 {
-            margin-left: 40px;
+            
             margin-right: 40px;
             margin-top: 40px;
             color: rgb(0, 0, 0);
@@ -41,9 +41,8 @@
                     Our goal is to help animals in need. Our purpose is to make sure all animals have a home and a family that will love and care for them and make them feel safe, valued, healthy and loved.&nbsp;<br />
                         
                     <div class="auto-style78">
-                        We do this by:
-                        <br />
-                        <br />
+                        
+                                          
                      Educating township pet owners to better care for their pets
                         </div>
                     <br />

@@ -164,6 +164,7 @@
                         <li><a id="homeNav" runat="server" href="~/Pages/Home">Home</a></li>
                         <li><a id="aboutNav" runat="server"  href="~/Pages/AboutUs">About</a></li>
                         <li><a id="contNav" runat="server"  href="~/Pages/ContactUs">Contact us</a></li>
+                        <li><a id="a1" runat="server" href="~/Pages/AdoptionDisplay">Cuddly Catalog</a></li>
                         <li><a id="adoptNav" runat="server" href="~/Pages/Adopt">Adopt</a></li>
                         <li><a id="fosterNav" runat="server" href="~/Pages/Foster">Foster</a></li>
                         <li><a id="volNav" runat="server" href="~/Pages/Volunteer">Volunteer</a></li>
