@@ -15,38 +15,30 @@
                     
                 <table style="width:100%;">
                     <tr>
-                        <td class="auto-style14">LEAPS is a non-profit organisation which concentrates on the rescue of dogs and cats in the West Coast area. As we do not have kennel facilities, we are always looking for foster homes for our puppies, dogs, cats and kittens so that they can be removed from unsavoury situations as quickly as possible. When you foster, you are providing a warm and loving temporary home to an animal in need.</td>
-                        <td class="auto-style15" colspan="2">
-                            <asp:Image ID="Image4" runat="server" style ="border-radius:10px" Height="336px" ImageUrl="~/Pictures/pexels-simona-kidrič-2607544.jpg" Width="546px" CssClass="auto-style405" />
-                        </td>
+                        <td class="auto-style14" style="width: 390px">LEAPS is a non-profit organisation which concentrates on the rescue of dogs and cats in the West Coast area. As we do not have kennel facilities, we are always looking for foster homes for our puppies, dogs, cats and kittens so that they can be removed from unsavoury situations as quickly as possible. When you foster, you are providing a warm and loving temporary home to an animal in need.</td>
+                        <td class="auto-style15" colspan="2">*INSERT PHOTO*</td>
                     </tr>
                     <tr>
-                        <td class="auto-style403"></td>
+                        <td class="auto-style12" style="width: 390px"></td>
                         <td class="auto-style12"></td>
                         <td class="auto-style12"></td>
                     </tr>
                     <tr>
-                        <td class="auto-style24">
-                            <asp:Image ID="Image5" runat="server" style ="border-radius:10px" Height="300px" ImageUrl="~/Pictures/pexels-pixabay-220938.jpg" Width="207px" />
-                        </td>
+                        <td class="auto-style24" style="width: 390px">*INSERT PHOTO*</td>
                         <td class="auto-style25">In order to be a foster, you must be at least 18 years of age and all of your existing pets must be spayed or neutered and up to date with vaccinations. Also required, is some time, patience and a lot of love! Fostering an animal can be a lot of work, but we will do our best to prepare you, so that fostering can be a rewarding experience. We will always discuss any specific needs that both you and your foster may have and we are always available to answer any questions.</td>
-                        <td class="auto-style26">
-                            <asp:Image ID="Image8" runat="server" style ="border-radius:10px" Height="289px" ImageUrl="~/Pictures/pexels-xue-guangjian-1687831.jpg" Width="219px" CssClass="auto-style404" />
-                        </td>
+                        <td class="auto-style26">*INSERT PHOTO*</td>
                     </tr>
                     <tr>
-                        <td class="auto-style403"></td>
+                        <td class="auto-style21" style="width: 390px"></td>
                         <td class="auto-style22"></td>
                         <td class="auto-style12"></td>
                     </tr>
                     <tr>
-                        <td colspan="2" class="auto-style27">
-                            <asp:Image ID="Image7" runat="server"  style ="border-radius:10px" Height ="324px" ImageUrl="~/Pictures/pexels-japheth-mast-569170.jpg" Width="536px" />
-                        </td>
+                        <td colspan="2" class="auto-style27">*INSERT PHOTO*</td>
                         <td class="auto-style27">Our animals are adopted via a number of avenues: Facebook, Twitter and Instagram (our handle for all is @helpingthepaw) webpage, e-mail appeals and the occasional adoption day. The foster family’s input is also very valuable in deciding whether the foster dog or cat is the right choice for prospective adopters. It usually take between 1 – 5 months for a foster to be adopted, however some are far quicker and some a little slower. Our adoption process involved an Adoption Form, a Homecheck and an Adoption Fee of R950 which covers vaccinations up to date of adoption, as well as sterilisation when the animal is old enough.</td>
                     </tr>
                     <tr>
-                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style18" style="width: 390px">&nbsp;</td>
                         <td class="auto-style19">&nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
@@ -312,24 +304,28 @@
         height: 24px;
     }
     .auto-style14 {
-        width: 287px;
+        width: 390px;
         height: 165px;
     }
     .auto-style15 {
         height: 165px;
     }
     .auto-style18 {
-        width: 287px;
+        width: 390px;
     }
     .auto-style19 {
         width: 391px;
+    }
+    .auto-style21 {
+        width: 390px;
+        height: 24px;
     }
     .auto-style22 {
         width: 391px;
         height: 24px;
     }
     .auto-style24 {
-        width: 287px;
+        width: 390px;
         height: 166px;
     }
     .auto-style25 {
@@ -355,16 +351,5 @@
       .auto-styleGeneralText{
 
         }
-    .auto-style403 {
-        height: 24px;
-        width: 287px;
-    }
-    .auto-style404 {
-        margin-left: 36px;
-    }
-    .auto-style405 {
-        margin-left: 88px;
-    }
 </style>
-                </span>
 </asp:Content>
