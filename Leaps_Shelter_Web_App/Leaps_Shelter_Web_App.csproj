@@ -193,15 +193,10 @@
     <Content Include="Pictures\backgroundtest1.PNG" />
     <Content Include="Pictures\backgroundtest4.png" />
     <Content Include="Pictures\backgroundtest9.png" />
-    <Content Include="Pictures\donate.png" />
     <Content Include="Pictures\facebooklogo.png" />
     <Content Include="Pictures\headertest1.PNG" />
     <Content Include="Pictures\instalogo.png" />
     <Content Include="Pictures\meow.PNG" />
-    <Content Include="Pictures\pexels-japheth-mast-569170.jpg" />
-    <Content Include="Pictures\pexels-pixabay-220938.jpg" />
-    <Content Include="Pictures\pexels-simona-kidrič-2607544.jpg" />
-    <Content Include="Pictures\pexels-xue-guangjian-1687831.jpg" />
     <Content Include="Pictures\twitterlogo2.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
