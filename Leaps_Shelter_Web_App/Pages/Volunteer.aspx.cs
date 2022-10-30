@@ -28,7 +28,7 @@ namespace Leaps_Shelter_Web_App.Pages
             try
             {
 
-                string userEmailCredentials2 = TextBox1.Text + " would like to volunteer for ";
+                string userEmailCredentials2 = volunteerEmailTB.Text + " would like to volunteer for ";
                 string userEmailCredentials = Label3.Text;
                 //string to = emailToTxt.Text; //To address
                 string to = "leapsrecieved@gmail.com";
@@ -66,11 +66,30 @@ namespace Leaps_Shelter_Web_App.Pages
             Label3.Text = DropDownList1.SelectedItem.Value;
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+
+
+        protected void volunteerButton_Click(object sender, EventArgs e)
         {
-            VolunteerEmailSender();
-            TextBox1.Text = "";
-            MessageBox.Show("Your volunteer request has been sent through!");
+
+            try
+            {              
+
+                if (volunteerEmailTB.Text != String.Empty && !volunteerEmailTB.Text.Contains("@") && !volunteerEmailTB.Text.Contains(".com"))
+                {
+                    MessageBox.Show("Please enter a valid email address");
+                }
+                else
+                {
+                    VolunteerEmailSender();
+                    volunteerEmailTB.Text = "";
+                    MessageBox.Show("Your volunteer request has been sent through!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            
         }
     }
 }
