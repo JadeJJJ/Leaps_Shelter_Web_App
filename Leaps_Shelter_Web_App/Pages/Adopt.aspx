@@ -652,6 +652,11 @@ Contact bronwyn@leaps.co.za on 0722837521 for cat and kitten fostering.<br />
             margin-left: 40px;
             margin-right: 40px;
             margin-top: 40px;
+            color: rgb(0, 0, 0);
+            font-family: 'Century Gothic'; 
+            font-size: 17px; 
+            font-style: normal;
+            font-weight: 400;
         }
 
 </style>
