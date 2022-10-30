@@ -23,7 +23,7 @@ namespace Leaps_Shelter_Web_App.Pages
 
         protected void Button1_Click1(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsDB.mdf;Integrated Security=True");
             con.Open();
             SqlCommand cmd = new SqlCommand("SELECT COUNT(1) FROM leapsAdmin WHERE ADMIN_EMAIL=@ADMIN_EMAIL AND ADMIN_PASSWORD = @ADMIN_PASSWORD", con);
             cmd.CommandType = CommandType.Text;

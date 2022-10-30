@@ -38,8 +38,8 @@ The adoption fee includes vaccinations up to the date of adoption and sterilisat
 <br />
 ​
 
-Contact michell@leaps.co.za on 0837347867 for dog and puppy fostering.<br />
-Contact bronwyn@leaps.co.za on 0722837521 for cat and kitten fostering.<br />
+Contact <a style="color:black" href = "mailto:michell@leaps.co.za"><u>michell@leaps.co.za</u></a> on <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="Black" NavigateUrl="tel:+27837347867"><u> 0837347867 </u></asp:HyperLink> for dog and puppy fostering.<br />
+Contact <a style="color:black" href = "mailto:bronwyn@leaps.co.za"><u> bronwyn@leaps.co.za</u></a> on <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="Black" NavigateUrl="tel:+27722837521"><u> 0722837521 </u></asp:HyperLink> for cat and kitten fostering.<br />
 
 <br/>
 
