@@ -16,15 +16,13 @@
                     <br />
                     <br /><br /><br /><br />
                         <tr>
-                        <td class="auto-style8" colspan="3" style="vertical-align: middle; text-align: center;">
-                            &nbsp;</td>
+                        <td colspan="3" style="vertical-align: middle; text-align: center; height: 20px;">
+                            </td>
                     </tr>
                     <tr>
-                        <td class="auto-style11" style="height: 20px"></td>
-                        <td style="height: 20px">
-                            <asp:Label ID="Label3" runat="server" Text="Enter Your Email"></asp:Label>
+                        <td colspan="3" style="height: 20px; vertical-align: middle; text-align: center;">
+                            <asp:Label ID="Label1" runat="server" Text="Enter your e-mail"></asp:Label>
                         </td>
-                        <td style="height: 20px"></td>
                     </tr>
                     <tr>
                         <td class="auto-style8" colspan="3" style="vertical-align: middle; text-align: center;">
