@@ -11,7 +11,7 @@ namespace Leaps_Shelter_Web_App.Pages
     public partial class AdoptionDisplay : System.Web.UI.Page
     {
 
-        SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsShelterDB.mdf;Integrated Security=True");
+        SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -43,7 +43,7 @@ namespace Leaps_Shelter_Web_App.Pages
 
         protected void DLBind()
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsShelterDB.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
             con.Open();
             SqlCommand cmd = new SqlCommand("SELECT * from leapsANIMAL", con);
             SqlDataReader dr = cmd.ExecuteReader();
