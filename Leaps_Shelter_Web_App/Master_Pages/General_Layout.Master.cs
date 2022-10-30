@@ -66,7 +66,7 @@ namespace Leaps_Shelter_Web_App.Master_Pages
         protected void LoginButton_Click(object sender, EventArgs e)
         {
 
-
+            Response.Redirect("~/Pages/Login.aspx");
         }
     }
 }
