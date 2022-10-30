@@ -66,7 +66,8 @@
         </tr>
         <tr>
             <td>
-    <p style=" height: 57px;" class="auto-style6">&nbsp;Click the link below to make a donation through PayPal <br />&nbsp;--PAYPAL LINK--   
+    <p style=" height: 57px;" class="auto-style6">&nbsp;Click the link below to make a donation through PayPal <br />&nbsp;<a runat="server" target="_blank" href="https://www.paypal.com/donate?token=dOs5Vc38Z7gqMhYyLJPW5g-dn-mMYrhuVAxSsvusrmwC-JfxdqS_MC6_Uu75TM09OlOAVFH368yHKSDM"><asp:Image ID="Image4" runat="server" ImageUrl="~/Pictures/donate.png" Width="154px" Height="53px"/></a>
+                           
         <br />
                 </p>
                 <br />
