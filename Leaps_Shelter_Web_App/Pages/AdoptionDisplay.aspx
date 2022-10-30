@@ -46,23 +46,21 @@
 
     <div class="auto-style7">
 
-   <asp:DataList ID="adoptDisplayDL" runat="server" RepeatDirection="Horizontal" Width="871px" HorizontalAlign="Center" RepeatColumns="3" BackColor="#DEBA84" BorderColor="#DEBA84" BorderStyle="None" BorderWidth="1px" CellPadding="3" CellSpacing="2" GridLines="Both">
+   <asp:DataList ID="adoptDisplayDL" runat="server" RepeatDirection="Horizontal" Width="871px" HorizontalAlign="Center" RepeatColumns="3" BorderColor="#EBEBEB" GridLines="Both">
 
                                 <EditItemStyle Wrap="False" />
-                                <FooterStyle BackColor="#F7DFB5" ForeColor="#8C4510" />
-                                <HeaderStyle BackColor="#A55129" Font-Bold="True" ForeColor="White" />
 
-                                <HeaderTemplate >   Doggies</HeaderTemplate>
+                              
                                
-                                <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" BackColor="#FFF7E7" ForeColor="#8C4510" />
+                                <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
                                
                                 <ItemTemplate>
-                                <div style =" "width: 150; text-align:center">
+                                <div style ="background-color: lightgoldenrodyellow "width: 150; text-align:center">
                                     <br />
-                                    <asp:Image ID="Image1" runat="server" ImageUrl ='<%#Eval("ANIMAL_PHOTO","~/AdoptionPhotos/{0}") %>' Width="200px" Height="200px"/>
-                                    <br />
-                                    <asp:Label ID="Label2" runat="server" Text='<%#Eval("ANIMAL_NAME") %>'></asp:Label>
-                                    <br />
+                                    <asp:Image ID="Image1" runat="server" style="border-radius: 30px " ImageUrl ='<%#Eval("ANIMAL_PHOTO","~/AdoptionPhotos/{0}") %>' Width="200px" Height="200px"/>
+                                    <br /><br />
+                                    <asp:Label ID="Label2" runat="server" Font-Bold="True" Text='<%# Eval("ANIMAL_NAME") %>' Font-Size="Large"></asp:Label>
+                                    <br /><br/>
                                     <asp:Label ID="Label14" runat="server" Text="Breed:"></asp:Label>
                                     &nbsp;<asp:Label ID="Label4" runat="server" Text='<%#Eval("ANIMAL_BREED") %>'></asp:Label>
                                     <br />
@@ -76,9 +74,13 @@
                                     &nbsp;<asp:Label ID="Label8" runat="server" Text='<%#Eval("ANIMAL_STERILIZATION_STATUS") %>'></asp:Label>
                                     <br />
                                     <br />
+                                    <asp:HyperLink ID="adoptHL" runat="server" Font-Underline="true" NavigateUrl="~/Pages/Adopt.aspx">Adopt</asp:HyperLink>
+                                    &nbsp;|
+                                    <asp:HyperLink ID="moreDetailsHL" Font-Underline="true" runat="server">More details</asp:HyperLink>
+                                    <br />
+                                    <br />
                                 </div>
                                 </ItemTemplate>
-                                <SelectedItemStyle BackColor="#738A9C" Font-Bold="True" ForeColor="White" />
                             </asp:DataList>
         </div>
     <div class="centerStyle">
@@ -88,7 +90,7 @@
                 <br />
 
     <style>
-    div {background-color: white;}
+    div {background-color: lightgoldenrodyellow;}
            .auto-style7 {
             margin-left: 40px;
             margin-right: 40px;
