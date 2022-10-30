@@ -312,26 +312,11 @@
                     <tr>
                         <td style="width: 637px">
                            
-                <asp:DropDownList ID="DropDownList1" runat="server" Height="34px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" style="margin-left: 0">
-                    <asp:ListItem>Volunteer at Puppy Adoption</asp:ListItem>
-                    <asp:ListItem>Transporting Animals</asp:ListItem>
-                    <asp:ListItem>Homechecks</asp:ListItem>
-                    <asp:ListItem>Assist at fundraising Events</asp:ListItem>
-                    <asp:ListItem>Raise Funds</asp:ListItem>
-                    <asp:ListItem>Introduce us to donors</asp:ListItem>
-                    <asp:ListItem>Volunteer professional Service</asp:ListItem>
-                    <asp:ListItem>Foster</asp:ListItem>
-                </asp:DropDownList>
                             <br />
-                <asp:Label ID="Label3" runat="server"></asp:Label>
                             <br />
                 
-                <asp:Label ID="Label2" runat="server" Text="Enter Email:"></asp:Label>
-                    
                             <br />
-                <asp:TextBox ID="TextBox1" runat="server" Width="208px"></asp:TextBox>
                             <br />
-                <asp:Button ID="Button1" runat="server" Text="Submit" />
                             <br />
                            
                         </td>

@@ -27,7 +27,7 @@ namespace Leaps_Shelter_Web_App.Pages
 
         protected void GVbind()
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsShelterDB.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
             con.Open();
             SqlCommand cmd = new SqlCommand("SELECT * from leapsANIMAL", con);
             SqlDataReader dr = cmd.ExecuteReader();
@@ -58,7 +58,7 @@ namespace Leaps_Shelter_Web_App.Pages
         protected void addAnimalBTN_Click(object sender, EventArgs e)
         {
 
-            SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsShelterDB.mdf;Integrated Security=True");
+            SqlConnection con1 = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
 
             try
             {
@@ -78,7 +78,7 @@ namespace Leaps_Shelter_Web_App.Pages
 
                             string fname = Path.GetFileName(addAnimalPhoto.FileName);
                             addAnimalPhoto.SaveAs(Server.MapPath("~/AdoptionPhotos/") + fname);
-                            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsShelterDB.mdf;Integrated Security=True");
+                            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
                             con.Open();
                             SqlCommand cmd = new SqlCommand("insert into leapsANIMAL values('" + addAnimalPhoto.FileName + "','" + animalNameTB.Text + "','" + animalTypeDDL.SelectedItem.Text.ToString() + "','" + breedTB.Text + "','" + animalAgeTB.Text + "','" + genderDDL.SelectedItem.Text.ToString() + "','" + descriptionTB.Text + "','" + sterilizationDDL.SelectedItem.Text.ToString() + "','" + vaccinationDDL.SelectedItem.Text.ToString() + "')", con);
                             //int t =

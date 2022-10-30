@@ -143,6 +143,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ADAM_SS.css" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\LeapsShelterDB.mdf" />
     <Content Include="App_Data\LeapsShelterDB_log.ldf">
       <DependentUpon>LeapsShelterDB.mdf</DependentUpon>
@@ -183,6 +187,7 @@
     <Content Include="Pages\EmployeeHome.aspx" />
     <Content Include="Pages\Foster.aspx" />
     <Content Include="Pages\Home.aspx" />
+    <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\SterilizationDrives.aspx" />
     <Content Include="Pages\Volunteer.aspx" />
     <Content Include="Pictures\backgroundtest1.PNG" />
@@ -318,6 +323,13 @@
     </Compile>
     <Compile Include="Pages\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\SterilizationDrives.aspx.cs">
       <DependentUpon>SterilizationDrives.aspx</DependentUpon>
