@@ -148,7 +148,6 @@
             </Scripts>
         </asp:ScriptManager>
         
-        
         <div class="navbar navbar-inverse navbar-fixed-top"  style="background-color: black; ">
             <div class="container" style="background-color: black">
                 <div class="navbar-header" style="background-color: black">
@@ -171,8 +170,7 @@
                         <li><a id="sdrivesNav" runat="server" href="~/Pages/SterilizationDrives">Sterilization drives</a></li>
                         <li><a id="donNav" runat="server" href="~/Pages/Donations">Donate</a></li>
                         <li><a id="signinNav" runat="server">Sign in</a></li>
-                        <li><a id="signoutNav" runat="server">Sign out</a></li>
-                         <!--<li><a runat="server" style="background-color: black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>-->
+                     
                                            
                     </ul>
                 </div>
