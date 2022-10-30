@@ -183,8 +183,6 @@
     <Content Include="Pages\EmployeeHome.aspx" />
     <Content Include="Pages\Foster.aspx" />
     <Content Include="Pages\Home.aspx" />
-    <Content Include="Pages\LoginAdmin.aspx" />
-    <Content Include="Pages\LoginPage.aspx" />
     <Content Include="Pages\SterilizationDrives.aspx" />
     <Content Include="Pages\Volunteer.aspx" />
     <Content Include="Pictures\backgroundtest1.PNG" />
@@ -320,20 +318,6 @@
     </Compile>
     <Compile Include="Pages\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\LoginAdmin.aspx.cs">
-      <DependentUpon>LoginAdmin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\LoginAdmin.aspx.designer.cs">
-      <DependentUpon>LoginAdmin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\LoginPage.aspx.cs">
-      <DependentUpon>LoginPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\LoginPage.aspx.designer.cs">
-      <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\SterilizationDrives.aspx.cs">
       <DependentUpon>SterilizationDrives.aspx</DependentUpon>
