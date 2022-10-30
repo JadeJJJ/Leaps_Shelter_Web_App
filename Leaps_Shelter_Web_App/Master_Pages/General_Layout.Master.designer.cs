@@ -105,15 +105,6 @@ namespace Leaps_Shelter_Web_App.Master_Pages
         protected global::System.Web.UI.HtmlControls.HtmlAnchor signinNav;
 
         /// <summary>
-        /// signoutNav control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor signoutNav;
-
-        /// <summary>
         /// MainContent control.
         /// </summary>
         /// <remarks>
