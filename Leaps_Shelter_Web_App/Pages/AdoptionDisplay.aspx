@@ -55,22 +55,22 @@
                                 <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
                                
                                 <ItemTemplate>
-                                <div style ="background-color: lightgoldenrodyellow "width: 150; text-align:center">
+                                <div style ="background-color: lightgoldenrodyellow; font-family: 'Century Gothic' "width: 150; text-align:center">
                                     <br />
                                     <asp:Image ID="Image1" runat="server" style="border-radius: 30px " ImageUrl ='<%#Eval("ANIMAL_PHOTO","~/AdoptionPhotos/{0}") %>' Width="200px" Height="200px"/>
                                     <br /><br />
-                                    <asp:Label ID="Label2" runat="server" Font-Bold="True" Text='<%# Eval("ANIMAL_NAME") %>' Font-Size="Large"></asp:Label>
+                                    <asp:Label ID="Label2" runat="server" Font-Bold="True" Text='<%# Eval("ANIMAL_NAME") %>' Font-Size="Large" ></asp:Label>
                                     <br /><br/>
-                                    <asp:Label ID="Label14" runat="server" Text="Breed:"></asp:Label>
+                                    <asp:Label ID="Label14" runat="server" Font-Bold="true" Text="Breed:"></asp:Label>
                                     &nbsp;<asp:Label ID="Label4" runat="server" Text='<%#Eval("ANIMAL_BREED") %>'></asp:Label>
                                     <br />
-                                    <asp:Label ID="Label15" runat="server" Text="Age:"></asp:Label>
+                                    <asp:Label ID="Label15" runat="server" Font-Bold="true" Text="Age:"></asp:Label>
                                     &nbsp;<asp:Label ID="Label5" runat="server" Text='<%#Eval("ANIMAL_AGE") %>'></asp:Label>
                                     <br />
-                                    <asp:Label ID="Label16" runat="server" Text="Sex:"></asp:Label>
+                                    <asp:Label ID="Label16" runat="server" Font-Bold="true" Text="Sex:"></asp:Label>
                                     &nbsp;<asp:Label ID="Label6" runat="server" Text='<%#Eval("ANIMAL_SEX") %>'></asp:Label>
                                     <br />
-                                    <asp:Label ID="Label18" runat="server" Text="Steri:"></asp:Label>
+                                    <asp:Label ID="Label18" runat="server" Font-Bold="true" Text="Sterilization:"></asp:Label>
                                     &nbsp;<asp:Label ID="Label8" runat="server" Text='<%#Eval("ANIMAL_STERILIZATION_STATUS") %>'></asp:Label>
                                     <br />
                                     <br />
