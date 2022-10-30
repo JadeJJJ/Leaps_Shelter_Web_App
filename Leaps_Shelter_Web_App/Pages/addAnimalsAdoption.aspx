@@ -149,6 +149,7 @@
 
                             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False">
                                 <Columns>                                 
+                                    <asp:BoundField DataField="ANIMAL_ID" HeaderText="ID" />
                                     <asp:TemplateField HeaderText="Image">
                                         <ItemTemplate>
                                             <asp:Image ID="Image1" runat="server" ImageUrl ='<%#Eval("ANIMAL_PHOTO","~/AdoptionPhotos/{0}") %>' Width="150px" Height="150px"/>

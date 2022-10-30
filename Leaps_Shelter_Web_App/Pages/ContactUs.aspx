@@ -19,7 +19,7 @@
         </tr>
         <tr>
             <td colspan="3" style="vertical-align: middle; text-align: center;" class="auto-style8">
-                <asp:TextBox ID="userEmailTxt" runat="server"></asp:TextBox>
+                <asp:TextBox ID="userEmailTxt"  placeholder ="example@gmail.com" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -50,7 +50,7 @@
         </tr>
         <tr>
             <td colspan="3" style="height: 20px; vertical-align: middle; text-align: center;">
-                <asp:TextBox ID="bodyTxt" placeholder ="hint" runat="server" Height="113px" TextMode="MultiLine" Width="195px"></asp:TextBox>
+                <asp:TextBox ID="bodyTxt" placeholder ="Your message" runat="server" Height="113px" TextMode="MultiLine" Width="195px"></asp:TextBox>
             </td>
         </tr>
         <td colspan="3" style="height: 20px; vertical-align: middle; text-align: center;">

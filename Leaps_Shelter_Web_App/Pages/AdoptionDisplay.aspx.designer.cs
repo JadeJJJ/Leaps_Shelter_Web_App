@@ -24,31 +24,49 @@ namespace Leaps_Shelter_Web_App.Pages
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// DropDownList1 control.
+        /// typeDDL control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList typeDDL;
 
         /// <summary>
-        /// DropDownList2 control.
+        /// genderDDL control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
+        protected global::System.Web.UI.WebControls.DropDownList genderDDL;
 
         /// <summary>
-        /// DropDownList3 control.
+        /// yearsDDL control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
+        protected global::System.Web.UI.WebControls.DropDownList yearsDDL;
+
+        /// <summary>
+        /// filterButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button filterButton;
+
+        /// <summary>
+        /// clearFiltersBTN control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button clearFiltersBTN;
 
         /// <summary>
         /// DropDownList4 control.

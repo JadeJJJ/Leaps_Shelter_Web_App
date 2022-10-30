@@ -117,6 +117,80 @@ namespace Leaps_Shelter_Web_App.Pages
                 Label1.Text = "only jpg,jpeg or png Files are accepted!!" + ex.Message;
             }
 
+
+
+        }
+
+        public void editAnimal()
+        {
+
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
+
+            string editAnimalDetails = "UPDATE leapsANIMAL SET WHERE ANIMAL_ID = @animalID and ANIMAL_NAME = @animalName";
+
+            //These commands execute our functions with the database connection "con2"
+            SqlCommand cmd1 = new SqlCommand(editAnimalDetails, con);
+
+            //Adding parameter values equal to the users' textbox input
+            cmd1.Parameters.AddWithValue("@animalName", deleteAnimal_Name.Text.Trim());
+            cmd1.Parameters.AddWithValue("@animalID", deleteAnimal_ID.Text.Trim());
+
+            SqlDataAdapter da2 = new SqlDataAdapter(cmd1);
+            DataTable dt2 = new DataTable();
+            da2.Fill(dt2);
+            GridView1.DataSource = dt2;
+            GridView1.DataBind();
+        }
+
+
+        public void deleteAnimal()
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True");
+
+            try
+            {
+
+                string deleteAnimals = "DELETE FROM leapsANIMAL WHERE ANIMAL_NAME = @animalName and ANIMAL_ID = @animalID";
+
+                //String addNames = @"select * from empTable where username_ @filterUN";
+
+                //These commands execute our functions with the database connection "con2"
+                SqlCommand cmd1 = new SqlCommand(deleteAnimals, con);
+
+                //Adding parameter values equal to the users' textbox input
+                cmd1.Parameters.AddWithValue("@animalName", deleteAnimal_Name.Text.Trim());
+                cmd1.Parameters.AddWithValue("@animalID", deleteAnimal_ID.Text.Trim());
+
+
+
+                SqlDataAdapter da2 = new SqlDataAdapter(cmd1);
+                DataTable dt2 = new DataTable();
+                da2.Fill(dt2);
+                GridView1.DataSource = dt2;
+                GridView1.DataBind();
+                GVbind();
+
+                MessageBox.Show("Our friend " + deleteAnimal_Name.Text + " has been deleted!");
+
+                deleteAnimal_Name.Text = "";
+                deleteAnimal_ID.Text = "";
+
+            }
+            catch 
+            {
+
+                MessageBox.Show("Please enter the correct Name and ID \n Make sure you capture the correct letters and numbers.");
+                deleteAnimal_Name.Text = "";
+                deleteAnimal_ID.Text = "";
+
+            }
+
+        }
+
+       
+        protected void deleteAnimalBTN_Click(object sender, EventArgs e)
+        {
+            deleteAnimal();
         }
     }
 }

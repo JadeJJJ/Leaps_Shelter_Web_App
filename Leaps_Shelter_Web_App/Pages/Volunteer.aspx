@@ -106,14 +106,14 @@
         <tr>
             <td style="width: 542px">&nbsp;</td>
             <td class="modal-sm" style="width: 47px">
-                <asp:TextBox ID="TextBox1" runat="server" Width="208px"></asp:TextBox>
+                <asp:TextBox ID="volunteerEmailTB" runat="server" Width="208px"></asp:TextBox>
             </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 542px">&nbsp;</td>
             <td class="modal-sm" style="width: 47px">
-                <asp:Button ID="Button1" runat="server" Text="Submit" />
+                <asp:Button ID="volunteerButton" runat="server" Text="Submit" OnClick="volunteerButton_Click" />
             </td>
             <td>&nbsp;</td>
         </tr>
@@ -133,7 +133,7 @@
                 <br />
                 </span>
                 <br />
-                <img src="../image/443323e1c9df4cf06df4590d2d41b135.jpg" style="width: 0; height: 0" /><asp:Label ID="Label6" runat="server" Font-Size="Large" Text="1. Volunteer at dog and puppy adoption days in Kirstenbosch"></asp:Label>
+                <img src="../image/443323e1c9df4cf06df4590d2d41b135.jpg" style="width: 0; height: 0" /><asp:Label ID="Label6" runat="server" Font-Size="20px" Text="Volunteer at dog and puppy adoption days in Kirstenbosch"></asp:Label>
                 <br />
                 <span style="color: rgb(0, 0, 0); font-family: 'Century Gothic'; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
                 <br />
@@ -159,9 +159,9 @@
         </tr>
         <tr>
             <td class="auto-style8">
-                <span style="color: rgb(0, 0, 0); font-family: 'Century Gothic'; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+                <span style="color: rgb(0, 0, 0); font-size: 17px; font-family: 'Century Gothic'; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
                 <br />
-                <asp:Label ID="Label14" runat="server" Font-Size="Large" Text="2. Assist with transporting animals"></asp:Label>
+                <asp:Label ID="Label1" runat="server" Font-Size="20px" Text="Assist with animal transport"></asp:Label><br />
                 <br />
                 We rescue animals in the West Coast and foster them in the Cape Town area. We often need lifts from Lamberts Bay to Cape Town and from Vredenburg to Cape Town. We also need lifts in Cape Town - picking up and dropping off dogs, puppies, cats or kittens generally from a vet in Cape Town to a foster home.</span></td>
             <td class="auto-style10">
@@ -188,7 +188,7 @@
         </tr>
         <tr>
             <td style="width: 640px">
-                <asp:Label ID="Label8" runat="server" Font-Size="Large" Text="3. Homechecks"></asp:Label>
+                <asp:Label ID="Label7" runat="server" Font-Size="20px" Text="Homechecks"></asp:Label><br />
                 <br />
                 <span style="color: rgb(0, 0, 0); font-family: 'Century Gothic'; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Before placing an animal in a foster home or in a forever home, we do a homecheck. This is a standard practice, internationally. It allows us to meet the family, double check the information provided, and gives us an opportunity to make sure the home is safe and suitable for the animal.&nbsp;<br />
                 <br />
@@ -208,7 +208,7 @@
    <table class="nav-justified">
                     <tr>
                         <td style="width: 640px; height: 25px;">
-                            <asp:Label ID="Label9" runat="server" Font-Size="Large" Text="4. Assist at our fundraising events"></asp:Label>
+                            <asp:Label ID="Label9" runat="server" Font-Size="20px" Text="Assist at our fundraising events"></asp:Label><br />
                             <br />
                             <span style="color: rgb(0, 0, 0); font-family: 'Century Gothic'; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Bingo Night, is an annual fundraising event and is our primary fundraiser of the year. It is not your typical &quot;blue dye bingo evening&quot;, it is a complete party. It has grown in LEAPS and bounds since our first bingo evening in 2008, and we will continue to bring our patrons a night that they will never forget.<br />
                             </span>
@@ -224,80 +224,47 @@
                         </td>
                         <td>&nbsp;</td>
                     </tr>
-                    <tr>
-                        <td style="width: 640px">
-                           
-                        </td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
+
                 </table>
      <table class="nav-justified">
                                 <tr>
                                     <td style="height: 20px; width: 639px">
-                                        <asp:Label ID="Label10" runat="server" Font-Size="Large" Text="5. Raise funds"></asp:Label>
+                                        <asp:Label ID="Label10" runat="server" Font-Size="20px" Text="Raise funds"></asp:Label><br />
                                         <br />
                                         <span style="color: rgb(0, 0, 0); font-family: 'Century Gothic'; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">You can start and run your own campaign to raise funds for LEAPS! Whether it’s a book sale amongst friends, a quiz night at your local restaurant, a raffle or more, there are many ways for you to Help the Paw.</span></td>
                                     <td style="height: 20px"></td>
                                     <td style="height: 20px"></td>
                                 </tr>
-                                <tr>
-                                    <td style="width: 639px">&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td style="width: 639px">&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                </tr>
+
                             </table>
          <table class="nav-justified">
                                 <tr>
                                     <td style="height: 20px; width: 637px">
-                                        <asp:Label ID="Label11" runat="server" Font-Size="Large" Text="6. Introduce us to donors"></asp:Label>
+                                        <asp:Label ID="Label11" runat="server" Font-Size="20px" Text="Introduce us to donors"></asp:Label><br />
                                         <br />
                                         <span style="color: rgb(0, 0, 0); font-family: 'Century Gothic'; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">If you have any donor contacts, please introduce us.&nbsp;</span></td>
                                     <td style="height: 20px"></td>
                                     <td style="height: 20px"></td>
                                 </tr>
-                                <tr>
-                                    <td style="width: 637px">&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                </tr>
-                                <tr>
-                                    <td style="width: 637px">
-                                        
-                                    </td>
-                                    <td>&nbsp;</td>
-                                    <td>&nbsp;</td>
-                                </tr>
+
+
                             </table>
     <table class="nav-justified">
                                             <tr>
                                                 <td style="width: 636px; height: 73px">
-                                                    <asp:Label ID="Label12" runat="server" Font-Size="Large" Text="7. Volunteer your professional services"></asp:Label>
+                                                    <asp:Label ID="Label12" runat="server" Font-Size="20px" Text="Volunteer your professional services"></asp:Label><br />
                                                     <br />
                                                     <span style="color: rgb(0, 0, 0); font-family: 'Century Gothic'; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">It doesn’t matter what your profession might be, we guarantee there is something you can do for LEAPS.&nbsp;</span></td>
                                                 <td style="height: 73px"></td>
                                                 <td style="width: 181px; height: 73px;"></td>
                                             </tr>
-                                            <tr>
-                                                <td style="width: 636px">&nbsp;</td>
-                                                <td>&nbsp;</td>
-                                                <td style="width: 181px">&nbsp;</td>
-                                            </tr>
-                                            <tr>
-                                                <td style="width: 636px">&nbsp;</td>
-                                                <td>&nbsp;</td>
-                                                <td style="width: 181px">&nbsp;</td>
-                                            </tr>
+
+
                                         </table>
     <table class="nav-justified">
                     <tr>
                         <td style="width: 637px; height: 25px;">
-                            <asp:Label ID="Label13" runat="server" Font-Size="Large" Text="8. Foster"></asp:Label>
+                            <asp:Label ID="Label13" runat="server" Font-Size="20px" Text="Foster"></asp:Label>
                             <br />
                             <span style="color: rgb(0, 0, 0); font-family: 'Century Gothic'; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">LEAPS does not have a shelter or kennel facilities. We rely solely on the kindness and generosity of fosters who open their homes and hearts to animals needing a place to stay while we find them their forever homes. We are always looking for foster homes for our dogs, puppies, cats or kittens to make sure we can remove them from unwanted situations as quickly as possible.</span><br />
                         </td>
