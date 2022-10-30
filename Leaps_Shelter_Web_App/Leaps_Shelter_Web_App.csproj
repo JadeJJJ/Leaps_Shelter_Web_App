@@ -196,6 +196,8 @@
     <Content Include="Pictures\backgroundtest1.PNG" />
     <Content Include="Pictures\backgroundtest4.png" />
     <Content Include="Pictures\backgroundtest9.png" />
+    <Content Include="Pictures\bg8.png" />
+    <Content Include="Pictures\BG9.png" />
     <Content Include="Pictures\facebooklogo.png" />
     <Content Include="Pictures\headertest1.PNG" />
     <Content Include="Pictures\instalogo.png" />
