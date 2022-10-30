@@ -22,6 +22,9 @@
             margin-top: 40px;
             text-align: left;
         }
+        .auto-style402 {
+            height: 85px;
+        }
     </style>
     <!--#F5F9B4 -->
                 <div style="height: 10px; width: fit-content(); background-color: yellow"></div>
@@ -66,7 +69,8 @@
         </tr>
         <tr>
             <td>
-    <p style=" height: 57px;" class="auto-style6">&nbsp;Click the link below to make a donation through PayPal <br />&nbsp;--PAYPAL LINK--   
+    <p class="auto-style402">&nbsp;Click the link below to make a donation through PayPal <br />   
+        <a runat="server" target="_blank" href="https://www.paypal.com/donate?token=lsisyyJ9RFwELd4bvcMsvKSlcgOl0JT_IEdx2P9woaKNQ0L4nB11XHoIdBHXY3KT_60IftWSqqUMPMSC"><asp:Image ID="Image4" runat="server" ImageUrl="~/Pictures/donate.png" Width="154px" Height="53px"/></a>
         <br />
                 </p>
                 <br />

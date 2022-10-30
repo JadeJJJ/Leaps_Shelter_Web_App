@@ -10,46 +10,51 @@
         <div class="auto-style7">
     <table style="width: 100%;">
         <tr>
-            <td style="width: 868px">&nbsp;</td>
-            <td style="width: 841px">&nbsp;</td>
+            <td class="auto-style404">&nbsp;</td>
+            <td class="auto-style404">&nbsp;</td>
+            <td class="auto-style404">&nbsp;</td>
+            <td class="auto-style402">&nbsp;</td>
             <td style="width: 727px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 868px">&nbsp;</td>
-            <td style="width: 841px">&nbsp;</td>
+            <td class="auto-style404">&nbsp;</td>
+            <td class="auto-style404">&nbsp;</td>
+            <td class="auto-style404">&nbsp;</td>
+            <td class="auto-style402">&nbsp;</td>
             <td style="width: 727px">&nbsp;</td>
         </tr>
         <tr style="background-color:black; ">
-            <td style="width:868px; height: 60px;">
-                <asp:DropDownList ID="typeDDL" runat="server">
+            <td class="auto-style405">
+                <asp:DropDownList ID="typeDDL" runat="server" BackColor="Cyan">
                     <asp:ListItem Value="0">Type</asp:ListItem>
                     <asp:ListItem>Cat</asp:ListItem>
                     <asp:ListItem>Dog</asp:ListItem>
                 </asp:DropDownList>
 &nbsp;&nbsp;
-                <asp:DropDownList ID="genderDDL" runat="server" Height="23px">
+                &nbsp;
+                &nbsp;&nbsp;&nbsp; 
+&nbsp;
+                </td>
+            <td class="auto-style405">
+                <asp:DropDownList ID="genderDDL" runat="server" Height="23px" BackColor="Cyan">
                     <asp:ListItem Value="0">Gender</asp:ListItem>
                     <asp:ListItem>Male</asp:ListItem>
                     <asp:ListItem>Female</asp:ListItem>
                 </asp:DropDownList>
-&nbsp;
-                <asp:DropDownList ID="yearsDDL" runat="server" OnSelectedIndexChanged="yearsDDL_SelectedIndexChanged">
+            </td>
+            <td class="auto-style405">
+                <asp:DropDownList ID="yearsDDL" runat="server" OnSelectedIndexChanged="yearsDDL_SelectedIndexChanged" BackColor="Cyan">
                     <asp:ListItem>Age</asp:ListItem>
                     <asp:ListItem>Descending</asp:ListItem>
                     <asp:ListItem>Ascending</asp:ListItem>
                 </asp:DropDownList>
-            &nbsp;&nbsp;&nbsp; <asp:Button ID="filterButton" runat="server" OnClick="filterButton_Click" Text="Filter" />
-&nbsp;
-                <asp:Button ID="clearFiltersBTN" runat="server" OnClick="clearFiltersBTN_Click1" Text="Clear" />
             </td>
-            <td style="width:fit-content; height: 60px;">
+            <td class="auto-style403">
+                <asp:Button ID="filterButton" runat="server" OnClick="filterButton_Click" Text="Filter" BackColor="Cyan" />
 &nbsp;&nbsp;
-                <asp:DropDownList ID="DropDownList4" runat="server">
-                </asp:DropDownList>
-            </td>
+                </td>
             <td style="width:fit-content; height: 60px;">&nbsp;&nbsp;
-                <asp:DropDownList ID="DropDownList5" runat="server">
-                </asp:DropDownList>
+                <asp:Button ID="clearFiltersBTN" runat="server" OnClick="clearFiltersBTN_Click1" Text="Clear" BackColor="Cyan" />
             </td>
 
         </tr>
@@ -109,6 +114,20 @@
             margin-left: 40px;
             margin-right: 40px;
             margin-top: 40px;
+        }
+        .auto-style402 {
+            width: 360px;
+        }
+        .auto-style403 {
+            height: 60px;
+            width: 360px;
+        }
+        .auto-style404 {
+            width: 940px;
+        }
+        .auto-style405 {
+            height: 60px;
+            width: 940px;
         }
     </style>
 </asp:Content>
