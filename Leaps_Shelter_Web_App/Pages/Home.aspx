@@ -3,9 +3,6 @@
 <asp:Content ID="mainHomeContent" ContentPlaceHolderID="MainContent" runat="server">
     <style>
     div {background-color: white;} 
-        .auto-style7 {
-            margin-left: 0px;
-        }
         .auto-style8 {
             height: 200px;
             width: 2205px;
@@ -84,7 +81,7 @@
     <table class="nav-justified">
 
         <tr style="height: 140px; width: 320px;">
-            <td class="modal-sm" style="width: 135px">
+            <td class="modal-sm" style="width: 286px">
 
                 
 
@@ -92,16 +89,48 @@
         </tr>
 
                 <tr>
-            <td   style="height: 240px; width: 135px;">
+            <td   style="height: 240px; width: 286px;">
 
             </td>
             <td  style="width: 51px">
 
             </td>
-            <td   style="height: 300px; width: 761px;">
-                <asp:Image ID="Image5" runat="server" Height="336px" Width="761px" style="margin-left: 0px"/>
+            <td   style="height: 300px; width: 500px; text-align:center; background-color: lightgoldenrodyellow">
+                 
+
+
+                        <br />
+                        <asp:Label ID="Label10" runat="server" Font-Bold="true" Font-Underline="true" Text="Our wishlist" Font-Size="22px"></asp:Label><br />
+                        <br />
+                        <br />
+                        </asp:Label><asp:Label ID="Label2" runat="server" Font-Size="16px" Text="A structure to work from - we currently walk door to door"></asp:Label>
+                        <br />
+                        <br />
+                        </asp:Label><asp:Label ID="Label3" runat="server" Font-Size="16px" Text="A closed bakkie"></asp:Label>
+                        <br />
+                        <br />
+                        </asp:Label><asp:Label ID="Label4" runat="server" Font-Size="16px" Text="Sterilising and other medical equipment"></asp:Label>
+                        <br />
+                        <br />
+                        </asp:Label><asp:Label ID="Label5" runat="server" Font-Size="16px" Text="Food, food and more food"></asp:Label>
+                        <br />
+                        <br />
+                        </asp:Label><asp:Label ID="Label6" runat="server" Font-Size="16px" Text="Blankets/bedding"></asp:Label>
+                        <br />
+                        <br />
+                        </asp:Label><asp:Label ID="Label7" runat="server" Font-Size="16px" Text="Shelters/kennels"></asp:Label>
+                        <br />
+                        <br />
+                        </asp:Label><asp:Label ID="Label8" runat="server" Font-Size="16px" Text="Funds to pay for medicines and veterinary services"></asp:Label>
+                        <br />
+                        <br />
+                        </asp:Label><asp:Label ID="Label9" runat="server" Font-Size="16px" Text="Fosters"></asp:Label>
+                        <br />
+                <br /><br />
+
+
             </td>
-            <td style="width: 51px">
+            <td style="width: 50px">
 
             </td>
             <td>
@@ -109,7 +138,7 @@
             </td>
         </tr>
                 <tr style="height: 140px; width: 420px;">
-            <td class="modal-sm" style="width: 135px">
+            <td class="modal-sm" style="width: 286px">
 
                 
 

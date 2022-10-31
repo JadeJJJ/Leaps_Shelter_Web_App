@@ -42,6 +42,15 @@ namespace Leaps_Shelter_Web_App.Master_Pages
         protected global::System.Web.UI.HtmlControls.HtmlAnchor contNav;
 
         /// <summary>
+        /// a1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor a1;
+
+        /// <summary>
         /// adoptNav control.
         /// </summary>
         /// <remarks>
@@ -96,15 +105,6 @@ namespace Leaps_Shelter_Web_App.Master_Pages
         protected global::System.Web.UI.HtmlControls.HtmlAnchor signinNav;
 
         /// <summary>
-        /// signoutNav control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor signoutNav;
-
-        /// <summary>
         /// MainContent control.
         /// </summary>
         /// <remarks>
@@ -141,13 +141,13 @@ namespace Leaps_Shelter_Web_App.Master_Pages
         protected global::System.Web.UI.WebControls.Image Image3;
 
         /// <summary>
-        /// TextBox1 control.
+        /// newsletterTB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox newsletterTB;
 
         /// <summary>
         /// signUpButton control.

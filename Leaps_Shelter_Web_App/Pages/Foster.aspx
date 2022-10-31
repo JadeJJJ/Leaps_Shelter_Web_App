@@ -1,43 +1,54 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master_Pages/General_Layout.Master" AutoEventWireup="true" CodeBehind="Foster.aspx.cs" Inherits="Leaps_Shelter_Web_App.Pages.Foster" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
+                <div class="auto-styleGeneralText"></div>
                 <div style="height: 10px; width: fit-content(); background-color: yellow"></div>
                 <div style="background-color:yellow; width: 100%; height: 80px;">
                 <div style="background-color:black; width: 100%; height: 80px; border-radius:  10px 10px 0 0; text-align:center">
-                    <asp:Label ID="Label4" runat="server" style="margin-left: 20px;  text-align: center" Font-Size="30pt" Font-Names="Calibri" ForeColor="Yellow" Text=" Foster"></asp:Label>
+                    <asp:Label ID="Label4" runat="server" style="margin-left: 20px;  text-align: center" Font-Size="30pt" ForeColor="Yellow" Text=" Foster"></asp:Label>
                 </div>
                 </div>
                 <div class="auto-style28">
-                <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none; vertical-align: middle;">LEAPS does not have a shelter or kennel facilities. We rely solely on the kindness and generosity of fosters who open their homes and hearts to animals needing a place to stay while we find them their forever homes. Want to make the world a better place in one easy step? Foster a LEAPS dog, puppy, cat or kitten. We are always looking for foster homes for our dogs, puppies, cats and kittens to 
-                make sure we can remove them from unwanted situations as quickly as possible! <span style="color: rgb(0, 0, 0); font-family: wfont_c70576_0557f6e4c6cd4c02a3b32a2d46370b88, wf_0557f6e4c6cd4c02a3b32a2d4, orig_century_gothic; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">We will do our best to prepare you for your fostering journey. We are always available to answer your questions and to provide guidance and assistance. LEAPS will cover all medical expenses for the animal you are fostering.</span><br />
+                    <span style="font-family:'Century Gothic'">
+                LEAPS does not have a shelter or kennel facilities. We rely solely on the kindness and generosity of fosters who open their homes and hearts to animals needing a place to stay while we find them their forever homes. Want to make the world a better place in one easy step? Foster a LEAPS dog, puppy, cat or kitten. We are always looking for foster homes for our dogs, puppies, cats and kittens to 
+                make sure we can remove them from unwanted situations as quickly as possible! We will do our best to prepare you for your fostering journey. We are always available to answer your questions and to provide guidance and assistance. LEAPS will cover all medical expenses for the animal you are fostering.<br />
                 <br />
                     
                 <table style="width:100%;">
                     <tr>
                         <td class="auto-style14">LEAPS is a non-profit organisation which concentrates on the rescue of dogs and cats in the West Coast area. As we do not have kennel facilities, we are always looking for foster homes for our puppies, dogs, cats and kittens so that they can be removed from unsavoury situations as quickly as possible. When you foster, you are providing a warm and loving temporary home to an animal in need.</td>
-                        <td class="auto-style15" colspan="2">*INSERT PHOTO*</td>
-                    </tr>
-                    <tr>
-                        <td class="auto-style12"></td>
-                        <td class="auto-style12"></td>
-                        <td class="auto-style12"></td>
-                    </tr>
-                    <tr>
-                        <td class="auto-style24">*INSERT PHOTO*</td>
-                        <td class="auto-style25">In order to be a foster, you must be at least 18 years of age and all of your existing pets must be spayed or neutered and up to date with vaccinations. Also required, is some time, patience and a lot of love! Fostering an animal can be a lot of work, but we will do our best to prepare you, so that fostering can be a rewarding experience. We will always discuss any specific needs that both you and your foster may have and we are always available to answer any questions.</td>
-                        <td class="auto-style26">*INSERT PHOTO*</td>
+                        <td class="auto-style15" colspan="2">
+                               <asp:Image ID="Image4" runat="server" style ="border-radius:10px" Height="336px" ImageUrl="~/Pictures/pexels-simona-kidrič-2607544.jpg" Width="546px" CssClass="auto-style405" />
+                        </td>
                     </tr>
                     <tr>
                         <td class="auto-style21"></td>
-                        <td class="auto-style22"></td>
+                        <td class="auto-style403"></td>
                         <td class="auto-style12"></td>
                     </tr>
                     <tr>
-                        <td colspan="2" class="auto-style27">*INSERT PHOTO*</td>
+                        <td class="auto-style24">
+                            <asp:Image ID="Image6" runat="server" style ="border-radius:10px" Height="343px" ImageUrl="~/Pictures/pexels-pixabay-220938.jpg" Width="207px" />
+                        </td>
+                        <td class="auto-style25">In order to be a foster, you must be at least 18 years of age and all of your existing pets must be spayed or neutered and up to date with vaccinations. Also required, is some time, patience and a lot of love! Fostering an animal can be a lot of work, but we will do our best to prepare you, so that fostering can be a rewarding experience. We will always discuss any specific needs that both you and your foster may have and we are always available to answer any questions.</td>
+                        <td class="auto-style26">
+                    <span style="font-family:'Century Gothic'">
+                            <asp:Image ID="Image5"  runat="server" style ="border-radius:10px" Height="336px" ImageUrl="~/Pictures/pexels-xue-guangjian-1687831.jpg" Width="219px" CssClass="auto-style404" />
+                        </td>
+</span></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style21"></td>
+                        <td class="auto-style403"></td>
+                        <td class="auto-style12"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="auto-style27">
+                            <asp:Image ID="Image7" runat="server"  style ="border-radius:10px" Height ="324px" ImageUrl="~/Pictures/pexels-japheth-mast-569170.jpg" Width="536px" />
+                        </td>
                         <td class="auto-style27">Our animals are adopted via a number of avenues: Facebook, Twitter and Instagram (our handle for all is @helpingthepaw) webpage, e-mail appeals and the occasional adoption day. The foster family’s input is also very valuable in deciding whether the foster dog or cat is the right choice for prospective adopters. It usually take between 1 – 5 months for a foster to be adopted, however some are far quicker and some a little slower. Our adoption process involved an Adoption Form, a Homecheck and an Adoption Fee of R950 which covers vaccinations up to date of adoption, as well as sterilisation when the animal is old enough.</td>
                     </tr>
                     <tr>
-                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style407">&nbsp;</td>
                         <td class="auto-style19">&nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
@@ -58,6 +69,7 @@
                         <td class="auto-style12" style="vertical-align: middle; text-align: center">IF YOU WISH TO PROCEED WITH THE FOSTERING PROCESS, YOU MAY PROCEED BELOW</td>
                     </tr>
                 </table>
+                        <span />
                 </span>
                 <br />
                 <table style="width:100%;">
@@ -126,7 +138,7 @@
                             <asp:Label ID="fosterExperienceTxt" runat="server"></asp:Label>
                         </td>
                         <td colspan="2" style="vertical-align: middle; text-align: center">
-                            <asp:TextBox ID="fosterExperienceText" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="fosterExperienceText" runat="server" OnTextChanged="fosterExperienceText_TextChanged"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -302,32 +314,25 @@
         height: 24px;
     }
     .auto-style14 {
-        width: 390px;
+        width: 318px;
         height: 165px;
     }
     .auto-style15 {
         height: 165px;
     }
-    .auto-style18 {
-        width: 390px;
-    }
     .auto-style19 {
-        width: 391px;
+        width: 435px;
     }
     .auto-style21 {
-        width: 390px;
-        height: 24px;
-    }
-    .auto-style22 {
-        width: 391px;
+        width: 318px;
         height: 24px;
     }
     .auto-style24 {
-        width: 390px;
+        width: 318px;
         height: 166px;
     }
     .auto-style25 {
-        width: 391px;
+        width: 435px;
         height: 166px;
     }
     .auto-style26 {
@@ -340,6 +345,28 @@
             margin-left: 40px;
             margin-right: 40px;
             margin-top: 40px;
+            color: rgb(0, 0, 0);
+            font-family: 'Century Gothic'; 
+            font-size: 17px; 
+            font-style: normal;
+            font-weight: 400;
+    }
+      .auto-styleGeneralText{
+
+        }
+    .auto-style403 {
+        height: 24px;
+        width: 435px;
+    }
+    .auto-style404 {
+        margin-left: 93px;
+    }
+    .auto-style405 {
+        margin-left: 58px;
+    }
+    .auto-style407 {
+        width: 318px;
     }
 </style>
+</span>
 </asp:Content>
