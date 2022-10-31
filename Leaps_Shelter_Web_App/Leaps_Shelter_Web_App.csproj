@@ -200,6 +200,7 @@
     <Content Include="Pictures\backgroundtest1.PNG" />
     <Content Include="Pictures\backgroundtest4.png" />
     <Content Include="Pictures\backgroundtest9.png" />
+    <Content Include="Pictures\bgnew.png" />
     <Content Include="Pictures\donate.png" />
     <Content Include="Pictures\bg8.png" />
     <Content Include="Pictures\BG9.png" />
@@ -207,6 +208,7 @@
     <Content Include="Pictures\headertest1.PNG" />
     <Content Include="Pictures\instalogo.png" />
     <Content Include="Pictures\meow.PNG" />
+    <Content Include="Pictures\newbg.jpg" />
     <Content Include="Pictures\pexels-japheth-mast-569170.jpg" />
     <Content Include="Pictures\pexels-pixabay-220938.jpg" />
     <Content Include="Pictures\pexels-simona-kidrič-2607544.jpg" />

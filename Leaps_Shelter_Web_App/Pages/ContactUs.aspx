@@ -9,6 +9,8 @@
                     <asp:Label ID="Label2" runat="server" style="margin-left: 20px;  text-align: center" Font-Size="30pt" Font-Names="Calibri" ForeColor="Yellow" Text=" Contact us"></asp:Label>
                 </div>
                 </div>
+
+
                             <asp:Panel ID="Panel1" runat="server" BackImageUrl="~/Pictures/BG9.png" Height="500px">
                      <table style="width:100%;">       
                 <caption>
