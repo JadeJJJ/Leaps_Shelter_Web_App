@@ -169,7 +169,7 @@
                         <li><a id="volNav" runat="server" href="~/Pages/Volunteer">Volunteer</a></li>
                         <li><a id="sdrivesNav" runat="server" href="~/Pages/SterilizationDrives">Sterilization drives</a></li>
                         <li><a id="donNav" runat="server" href="~/Pages/Donations">Donate</a></li>
-                        <li><a id="signinNav" runat="server">Sign in</a></li>
+                        <li><a id="signinNav" runat="server" href="~/Pages/Login">Sign in</a></li>
                      
                                            
                     </ul>
@@ -244,7 +244,7 @@
                     </div>
                     <br />
                     
-                    <asp:Button ID="LoginButton" runat="server" Text="Login" BackColor="Black" BorderColor="Black" OnClick="LoginButton_Click" />
+                    
                     			</div>
       
 		</div>

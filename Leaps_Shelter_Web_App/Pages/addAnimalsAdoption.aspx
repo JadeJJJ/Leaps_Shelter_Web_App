@@ -14,13 +14,13 @@
 
         <table style="width: 100%;">
             <tr>
-                <td class="generalStyle" style="width: 459px">Aniaml Name<br />
+                <td style="width: 459px">Aniaml Name<br />
                     <asp:TextBox ID="animalNameTB" runat="server"></asp:TextBox>
                 </td>
                 <td class="generalStyle">Age<br />
                     <asp:TextBox ID="animalAgeTB" runat="server"></asp:TextBox>
                 </td>
-                <td class="generalStyle">Sex & pronouns<br />
+                <td class="generalStyle">Type<br />
                     <asp:DropDownList ID="animalTypeDDL" runat="server">
                         <asp:ListItem>Dog</asp:ListItem>
                         <asp:ListItem>Cat</asp:ListItem>
@@ -55,13 +55,13 @@
                     <br />
                     
                             </td>
-
-                <td class="generalStyle">Vaccination status<br />
+                            
+                <td class="generalStyle"><br />Vaccination status<br />
 &nbsp;<asp:DropDownList ID="vaccinationDDL" runat="server">
                         <asp:ListItem>Fully vaccinated</asp:ListItem>
                         <asp:ListItem>Unvaccinated</asp:ListItem>
                         <asp:ListItem>In progress</asp:ListItem>
-                    </asp:DropDownList>
+                    </asp:DropDownList><br />
                     
                             <br />
                     
@@ -82,11 +82,10 @@
                     <br />
                     <asp:FileUpload ID="addAnimalPhoto" runat="server" ValidateRequestMode="Enabled" />
                             <br />
-                    <asp:Image ID="Image1" runat="server" Height="150px" Width="150px" />
                             </td>
 
-                <td class="generalStyle">Description<br />
-                    <asp:TextBox ID="descriptionTB" runat="server"></asp:TextBox>
+               <td class="generalStyle">Description<br /><br />
+                    <asp:TextBox ID="descriptionTB" runat="server" Height="69px" TextMode="MultiLine"></asp:TextBox>
                             </td>
             </tr>
             <tr>
@@ -102,17 +101,19 @@
                     <asp:Button ID="editAnimalBTN" runat="server" Text="Edit" />
                 </td>
                 <td class="generalStyle">
-                    Animal name <br />
-                    <asp:TextBox ID="deleteAnimal_Name" runat="server"></asp:TextBox>
+                    
                     &nbsp;
 &nbsp;&nbsp;
                                         
-                </td>
+                   <br /> Type the animal name, then ID and you can then delete the animal permanently.</td>
             </tr>
                         <tr>
                 <td class="generalStyle" style="height: 24px; width: 459px"></td>
                 <td class="generalStyle" style="height: 24px"></td>
-                <td class="generalStyle" style="height: 24px"></td>
+                <td class="generalStyle" style="height: 24px">
+                   <br /> Animal name <br />
+                    <asp:TextBox ID="deleteAnimal_Name" runat="server"></asp:TextBox><br></br>
+                            </td>
             </tr>
             <tr>
                 <td class="generalStyle" style="width: 459px" >
