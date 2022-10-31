@@ -18,7 +18,7 @@ namespace Leaps_Shelter_Web_App.Pages
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-           // Response.Redirect("~/Pages/addAnimalsAdoption.aspx");
+           
         }
 
         protected void Button1_Click1(object sender, EventArgs e)
@@ -26,6 +26,7 @@ namespace Leaps_Shelter_Web_App.Pages
 
         }
 
+        //Once the User clicks the sign in button, this method validates the data
         protected void loginBTN_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsDB.mdf;Integrated Security=True");
