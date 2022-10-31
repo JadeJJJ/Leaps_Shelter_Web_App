@@ -63,10 +63,6 @@ namespace Leaps_Shelter_Web_App.Master_Pages
             MessageBox.Show("Your have signed up for our Leaps newsletter!");
         }
 
-        protected void LoginButton_Click(object sender, EventArgs e)
-        {
 
-            Response.Redirect("~/Pages/Login.aspx");
-        }
     }
 }

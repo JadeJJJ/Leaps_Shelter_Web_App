@@ -63,9 +63,6 @@ namespace Leaps_Shelter_Web_App.Pages
             try
             {
 
-
-
-
                         if (addAnimalPhoto.HasFiles)
                         {
                             if (addAnimalPhoto.PostedFile.ContentLength <= 500000)
