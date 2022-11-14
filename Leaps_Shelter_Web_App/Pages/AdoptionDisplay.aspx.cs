@@ -42,7 +42,7 @@ namespace Leaps_Shelter_Web_App.Pages
 
             */
         }
-
+        //Populates the DataList
         protected void DLBind()
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsDB.mdf;Integrated Security=True");

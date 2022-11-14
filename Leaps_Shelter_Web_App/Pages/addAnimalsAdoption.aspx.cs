@@ -15,16 +15,14 @@ namespace Leaps_Shelter_Web_App.Pages
     public partial class addAnimalsAdoption : System.Web.UI.Page
     {
 
-        //string LeapsShelterCS = ConfigurationManager.ConnectionStrings["LeapsCS"].ConnectionString; // String referencing the connection string in the Web.config file
-
+       
         protected void Page_Load(object sender, EventArgs e)
         {
             GVbind();
-          // ClearEntries();
-           // 
-
+          
         }
 
+        //The data from the database is populated on the grid view
         protected void GVbind()
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsDB.mdf;Integrated Security=True");
@@ -41,7 +39,7 @@ namespace Leaps_Shelter_Web_App.Pages
         public void ClearEntries()
         {
 
-
+            //Clears the fields for new entires
             animalNameTB.Text = "";
             animalAgeTB.Text = "";
             animalTypeDDL.ClearSelection();
@@ -54,7 +52,7 @@ namespace Leaps_Shelter_Web_App.Pages
 
         }
 
-
+        //After all fields are filled in,when the user selects the add button , the data is checked, if correct it will add the data to the database
         protected void addAnimalBTN_Click(object sender, EventArgs e)
         {
 
@@ -117,7 +115,7 @@ namespace Leaps_Shelter_Web_App.Pages
 
 
         }
-
+        //After filling in the correct details for the animal,the edit button will update the information for that animal
         public void editAnimal()
         {
 
@@ -139,7 +137,7 @@ namespace Leaps_Shelter_Web_App.Pages
             GridView1.DataBind();
         }
 
-
+        //After the Animal name and ID are entered,this method is activated onclick adn deletes the animals
         public void deleteAnimal()
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\LeapsDB.mdf;Integrated Security=True");
