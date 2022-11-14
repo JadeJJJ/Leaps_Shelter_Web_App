@@ -58,9 +58,22 @@ namespace Leaps_Shelter_Web_App.Master_Pages
 
         protected void signUpButton_Click(object sender, EventArgs e)
         {
-            NewsletterEmailSender();
-            newsletterTB.Text = "";
-            MessageBox.Show("Your have signed up for our Leaps newsletter!");
+
+            if (newsletterTB.Text == String.Empty || !newsletterTB.Text.Contains("@") || !newsletterTB.Text.Contains(".com"))
+            {
+
+                    MessageBox.Show("Please enter a valid email address");
+                    newsletterTB.Text = "";
+
+            }
+            else
+            {
+                NewsletterEmailSender();
+                newsletterTB.Text = "";
+                MessageBox.Show("Your have signed up for our Leaps newsletter!");
+            }
+            
+
         }
 
 
